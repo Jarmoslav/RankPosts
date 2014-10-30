@@ -1,0 +1,21 @@
+<h3> Bästa meningar efter tid.</h3>
+<!--temporal-->
+<span ng-repeat="sumTemporal in sumTemporals" ng-init="sectionIndex = $index">
+  <ul class="timeline" ng-repeat="s in sumTemporal track by $index" >
+    <li class="timeline-inverted" >
+      <div class="timeline-badge"><i class="glyphicon glyphicon-user"></i> {{$index+1}}</div>
+      <div class="timeline-panel" ng-class="{odd : sectionIndex%2==0, last:$last}">
+        <div class="timeline-heading">
+          <!--<h4 class="timeline-title">Mussum ipsum cacilds</h4>-->
+          <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{s.postTime}}</small></p>
+        </div>
+        <div class="timeline-body">
+          <p>{{s.sentence}}</p>
+          <p> - <a style = "color: #666666;"  href="{{s.userUrl}}" target="_blank">{{s.postUser}}</a>
+          <span class ="pull-right"><a href="{{s.postUrl}}" target="_blank">Källa</a>
+          </span></p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</span>

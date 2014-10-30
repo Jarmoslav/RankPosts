@@ -1,0 +1,26 @@
+
+<section>
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>
+          <a class ="listTitle" ng-click="orderByField='threadTitle'; reverseSort = !reverseSort">
+          Trådnamn <span ng-show="orderByField == 'threadTitle'"><span ng-show="!reverseSort">^</span><span ng-show="reverseSort">v</span></span>
+          </a>
+        </th>
+        <th>
+          <a  class ="listTitle" ng-click="orderByField='threadID'; reverseSort = !reverseSort">
+            TrådID <span ng-show="orderByField == 'threadID'"><span ng-show="!reverseSort">^</span><span ng-show="reverseSort">v</span></span>
+          </a>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="fileName in fileNames|orderBy:orderByField:reverseSort"  ng-class="{odd: $odd}">
+        <td ><a class ="listTitle" ui-sref="thread({threadID: fileName.threadID})">{{fileName.threadTitle}}</a></td>
+        <td>{{fileName.threadID}}</td>
+      </tr>
+    </tbody>
+  </table>
+</section>

@@ -1,0 +1,20 @@
+<h3> Bästa inlägg</h3>
+<ul class="timeline" ng-repeat="sumPost in sumPostsAll">
+  <li class="timeline-inverted">
+    <div class="timeline-badge"><i class="glyphicon glyphicon-user"></i>{{$index + 1}}</div>
+    <div class="timeline-panel">
+      <div class="timeline-heading">
+        <!--<h4 class="timeline-title">Mussum ipsum cacilds</h4>-->
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{sumPost.postTime}}</small></p>
+      </div>
+      <div class="timeline-body">
+
+        <span ng-bind-html="sumPost.sentence"></span>
+        <p></p>
+        <p> - <a style = "color: #666666;"  href="{{sumPost.userUrl}}" target="_blank">{{sumPost.postUser}}</a>
+        <span class ="pull-right"><a href="{{sumPost.postUrl}}" target="_blank">Källa</a>
+        </span></p>
+      </div>
+    </div>
+  </li>
+</ul>

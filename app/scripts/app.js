@@ -17,9 +17,10 @@ angular
   'ngSanitize',
   'ngTouch',
   'ui.router',
+  'ui.bootstrap',
   'nvd3ChartDirectives',
-  'berkantApp.directive',
-  'ui.bootstrap'
+  'berkantApp.directive'
+
 ])
 .config(function($stateProvider, $urlRouterProvider) {
 

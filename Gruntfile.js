@@ -225,8 +225,8 @@ module.exports = function (grunt) {
         dest: '<%= yeoman.dist %>',
         flow: {
           html: {
-            steps: {
-              js: ['concat', 'uglifyjs'],
+            steps: { // tog jag bort.. 'uglifyjs'
+              js: ['concat'],
               css: ['cssmin']
             },
             post: {}
@@ -431,10 +431,10 @@ module.exports = function (grunt) {
     'copy:dist',
     'cdnify',
     'cssmin',
-    'uglify',
+    //'uglify',
     'filerev',
-    'usemin',
-    'htmlmin'
+    'usemin'
+    //'htmlmin'
   ]);
 
   grunt.registerTask('default', [

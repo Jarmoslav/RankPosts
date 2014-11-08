@@ -41,6 +41,7 @@ angular
     controller: function($scope, promiseObj){
       $scope.orderByField = 'threadTitle';
       $scope.reverseSort = false;
+
       $scope.fileNames = promiseObj.data;
     }
 
@@ -51,7 +52,7 @@ angular
     resolve:{
       promiseStats:  function($http, $stateParams){
         return $http.get('json/webstats/'+$stateParams.threadID+'-webstats.json').then(function(data){
-            console.log('data', data);
+               
           return data;
         });
       }

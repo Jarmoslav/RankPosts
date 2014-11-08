@@ -1,238 +1,585 @@
 [
 	{
-		"threadID": "t119551",
-		"threadTitle": "Kriminella gäng i Sverige"
-	},
-	{
 		"threadID": "t130697",
-		"threadTitle": "Kontrollanter i kollektivtrafiken och deras befogenheter"
+		"threadTitle": "Kontrollanter i kollektivtrafiken och deras befogenheter",
+		"numberOfUsers": 542,
+		"numberOfPosts": 3391,
+		"startDate": "2004-06-08",
+		"endDate": "2014-04-25",
+		"duration": 3609,
+		"totalWordCount": 289591,
+		"totalSentenceCount": 17447
 	},
 	{
 		"threadID": "t133416",
-		"threadTitle": "Mordet på Olof Palme - 28 februari 1986"
+		"threadTitle": "Mordet på Olof Palme - 28 februari 1986",
+		"numberOfUsers": 1251,
+		"numberOfPosts": 57322,
+		"startDate": "2000-05-25",
+		"endDate": "2014-08-08",
+		"duration": 5189,
+		"totalWordCount": 4673749,
+		"totalSentenceCount": 293318
 	},
 	{
 		"threadID": "t172037",
-		"threadTitle": "Yrke : Taxislusk (Att köra taxi i Stockholm och på landsorten.)"
+		"threadTitle": "Yrke : Taxislusk (Att köra taxi i Stockholm och på landsorten.)",
+		"numberOfUsers": 946,
+		"numberOfPosts": 11354,
+		"startDate": "2005-01-02",
+		"endDate": "2014-08-04",
+		"duration": 3502,
+		"totalWordCount": 815632,
+		"totalSentenceCount": 55333
 	},
 	{
 		"threadID": "t226043",
-		"threadTitle": "Varför kommunism alltid leder till totalitärt förtryck."
+		"threadTitle": "Varför kommunism alltid leder till totalitärt förtryck.",
+		"numberOfUsers": 143,
+		"numberOfPosts": 1802,
+		"startDate": "2005-07-13",
+		"endDate": "2011-04-03",
+		"duration": 2091,
+		"totalWordCount": 164693,
+		"totalSentenceCount": 12031
 	},
 	{
 		"threadID": "t232286",
-		"threadTitle": "John F Kennedy - mordet - 22 November 1963"
-	},
-	{
-		"threadID": "t241357",
-		"threadTitle": "\"Diskussioner om Fox's - \"\"Prison Break\"\"\""
+		"threadTitle": "John F Kennedy - mordet - 22 November 1963",
+		"numberOfUsers": 384,
+		"numberOfPosts": 3290,
+		"startDate": "2004-11-18",
+		"endDate": "2014-08-07",
+		"duration": 3550,
+		"totalWordCount": 274673,
+		"totalSentenceCount": 16639
 	},
 	{
 		"threadID": "t270116",
-		"threadTitle": "JAS-39 Gripen"
+		"threadTitle": "JAS-39 Gripen",
+		"numberOfUsers": 495,
+		"numberOfPosts": 7254,
+		"startDate": "2005-11-19",
+		"endDate": "2014-08-06",
+		"duration": 3183,
+		"totalWordCount": 434443,
+		"totalSentenceCount": 26981
 	},
 	{
 		"threadID": "t326889",
-		"threadTitle": "Investment banker"
+		"threadTitle": "Investment banker",
+		"numberOfUsers": 564,
+		"numberOfPosts": 3390,
+		"startDate": "2006-05-11",
+		"endDate": "2014-08-07",
+		"duration": 3011,
+		"totalWordCount": 225156,
+		"totalSentenceCount": 14036
 	},
 	{
 		"threadID": "t350508",
-		"threadTitle": "Hade Marx rätt i nåt?"
+		"threadTitle": "Hade Marx rätt i nåt?",
+		"numberOfUsers": 112,
+		"numberOfPosts": 970,
+		"startDate": "2006-07-20",
+		"endDate": "2012-09-21",
+		"duration": 2256,
+		"totalWordCount": 101840,
+		"totalSentenceCount": 7027
 	},
 	{
 		"threadID": "t367082",
-		"threadTitle": "Därför ska Du rösta på Sverigedemokraterna."
+		"threadTitle": "Därför ska Du rösta på Sverigedemokraterna.",
+		"numberOfUsers": 794,
+		"numberOfPosts": 3571,
+		"startDate": "2006-08-28",
+		"endDate": "2014-08-05",
+		"duration": 2900,
+		"totalWordCount": 249494,
+		"totalSentenceCount": 16185
 	},
 	{
 		"threadID": "t392054",
-		"threadTitle": "Tråden där fusk på högskoleprovet diskuteras"
+		"threadTitle": "Tråden där fusk på högskoleprovet diskuteras",
+		"numberOfUsers": 363,
+		"numberOfPosts": 1028,
+		"startDate": "2004-10-31",
+		"endDate": "2014-08-07",
+		"duration": 3568,
+		"totalWordCount": 54390,
+		"totalSentenceCount": 3789
 	},
 	{
 		"threadID": "t426684",
-		"threadTitle": "Juristprogrammet"
-	},
-	{
-		"threadID": "t536846",
-		"threadTitle": "Rita din egen Muhammed. Sammanslagen tråd/mod"
+		"threadTitle": "Juristprogrammet",
+		"numberOfUsers": 1364,
+		"numberOfPosts": 14626,
+		"startDate": "2007-01-09",
+		"endDate": "2014-08-07",
+		"duration": 2768,
+		"totalWordCount": 950834,
+		"totalSentenceCount": 59335
 	},
 	{
 		"threadID": "t539212",
-		"threadTitle": "Civ.Ing i Teknisk Fysik och jobbar som industriarbetare."
+		"threadTitle": "Civ.Ing i Teknisk Fysik och jobbar som industriarbetare.",
+		"numberOfUsers": 230,
+		"numberOfPosts": 650,
+		"startDate": "2007-09-02",
+		"endDate": "2014-03-15",
+		"duration": 2387,
+		"totalWordCount": 45196,
+		"totalSentenceCount": 2753
 	},
 	{
 		"threadID": "t551733",
-		"threadTitle": "hur är den typiske SD-väljaren? (sammanfogad)/mod"
+		"threadTitle": "hur är den typiske SD-väljaren? (sammanfogad)/mod",
+		"numberOfUsers": 540,
+		"numberOfPosts": 1214,
+		"startDate": "2007-09-28",
+		"endDate": "2014-05-22",
+		"duration": 2429,
+		"totalWordCount": 81995,
+		"totalSentenceCount": 5101
 	},
 	{
 		"threadID": "t571013",
-		"threadTitle": "Datalagringsdirektivet blev lag [Sammanslagen]"
-	},
-	{
-		"threadID": "t683845",
-		"threadTitle": "\"Bandidostråden, allt om Bandidos och prospects\""
+		"threadTitle": "Datalagringsdirektivet blev lag [Sammanslagen]",
+		"numberOfUsers": 720,
+		"numberOfPosts": 1717,
+		"startDate": "2007-11-07",
+		"endDate": "2014-04-08",
+		"duration": 2345,
+		"totalWordCount": 94014,
+		"totalSentenceCount": 6329
 	},
 	{
 		"threadID": "t779211",
-		"threadTitle": "Jas 39 gripen till Schweiz?"
+		"threadTitle": "Jas 39 gripen till Schweiz?",
+		"numberOfUsers": 218,
+		"numberOfPosts": 1603,
+		"startDate": "2008-11-05",
+		"endDate": "2014-07-31",
+		"duration": 2095,
+		"totalWordCount": 86696,
+		"totalSentenceCount": 5557
 	},
 	{
 		"threadID": "t781949",
-		"threadTitle": "\"Nordkorea - bisarrt, fascinerande, sjukt\""
+		"threadTitle": "\"Nordkorea - bisarrt, fascinerande, sjukt\"",
+		"numberOfUsers": 984,
+		"numberOfPosts": 5665,
+		"startDate": "2008-11-10",
+		"endDate": "2014-08-07",
+		"duration": 2097,
+		"totalWordCount": 371857,
+		"totalSentenceCount": 23616
 	},
 	{
 		"threadID": "t803051",
-		"threadTitle": "Var går gränsen för prostitution? [sammanfogad tråd /Mod]"
+		"threadTitle": "Var går gränsen för prostitution? [sammanfogad tråd /Mod]",
+		"numberOfUsers": 269,
+		"numberOfPosts": 524,
+		"startDate": "2002-08-15",
+		"endDate": "2014-01-19",
+		"duration": 4176,
+		"totalWordCount": 32062,
+		"totalSentenceCount": 1982
 	},
 	{
 		"threadID": "t819672",
-		"threadTitle": "Konflikten i Gaza"
+		"threadTitle": "Konflikten i Gaza",
+		"numberOfUsers": 1083,
+		"numberOfPosts": 11637,
+		"startDate": "2008-12-26",
+		"endDate": "2014-08-07",
+		"duration": 2051,
+		"totalWordCount": 806176,
+		"totalSentenceCount": 52817
 	},
 	{
 		"threadID": "t820956",
-		"threadTitle": "Mästarnas Mästare [Sammanfogad /Mod]"
+		"threadTitle": "Mästarnas Mästare [Sammanfogad /Mod]",
+		"numberOfUsers": 830,
+		"numberOfPosts": 3850,
+		"startDate": "2009-01-08",
+		"endDate": "2014-08-02",
+		"duration": 2033,
+		"totalWordCount": 129254,
+		"totalSentenceCount": 10010
 	},
 	{
 		"threadID": "t947739",
-		"threadTitle": "\"Daddys, Slutstriden har börjat....\""
+		"threadTitle": "\"Daddys, Slutstriden har börjat....\"",
+		"numberOfUsers": 253,
+		"numberOfPosts": 17899,
+		"startDate": "2009-06-30",
+		"endDate": "2014-02-22",
+		"duration": 1699,
+		"totalWordCount": 1665168,
+		"totalSentenceCount": 102703
 	},
 	{
 		"threadID": "t959924",
-		"threadTitle": "Blåsningar på Tradera / Blocket"
+		"threadTitle": "Blåsningar på Tradera / Blocket",
+		"numberOfUsers": 1137,
+		"numberOfPosts": 3157,
+		"startDate": "2009-07-18",
+		"endDate": "2014-07-15",
+		"duration": 1824,
+		"totalWordCount": 179371,
+		"totalSentenceCount": 11188
 	},
 	{
 		"threadID": "t967842",
-		"threadTitle": "[USA] Den ENDA tråden om Apollo / Månlandningarna / Bemannade rymdresor"
+		"threadTitle": "[USA] Den ENDA tråden om Apollo / Månlandningarna / Bemannade rymdresor",
+		"numberOfUsers": 718,
+		"numberOfPosts": 12524,
+		"startDate": "2001-06-09",
+		"endDate": "2014-06-02",
+		"duration": 4742,
+		"totalWordCount": 861485,
+		"totalSentenceCount": 58301
 	},
 	{
 		"threadID": "t972173",
-		"threadTitle": "Den blivande bruden är försvunnen. Linda Chen-fallet"
-	},
-	{
-		"threadID": "t989231",
-		"threadTitle": "\"Hells Angels tråden, allt om HA, prospects och Red Devils\""
-	},
-	{
-		"threadID": "t1026152",
-		"threadTitle": "Vilken film ska du se nu och varför? v2.0"
+		"threadTitle": "Den blivande bruden är försvunnen. Linda Chen-fallet",
+		"numberOfUsers": 1529,
+		"numberOfPosts": 39494,
+		"startDate": "2009-08-04",
+		"endDate": "2014-08-02",
+		"duration": 1825,
+		"totalWordCount": 2898449,
+		"totalSentenceCount": 186578
 	},
 	{
 		"threadID": "t1048457",
-		"threadTitle": "\"Polis till er tjänst, ställ frågor\""
+		"threadTitle": "\"Polis till er tjänst, ställ frågor\"",
+		"numberOfUsers": 3217,
+		"numberOfPosts": 14283,
+		"startDate": "2004-10-18",
+		"endDate": "2014-08-06",
+		"duration": 3580,
+		"totalWordCount": 941066,
+		"totalSentenceCount": 60331
 	},
 	{
 		"threadID": "t1116535",
-		"threadTitle": "\"\"\"Grekland läskigt nära total kollaps\"\"\""
+		"threadTitle": "\"\"\"Grekland läskigt nära total kollaps\"\"\"",
+		"numberOfUsers": 806,
+		"numberOfPosts": 5051,
+		"startDate": "2010-02-03",
+		"endDate": "2014-07-20",
+		"duration": 1629,
+		"totalWordCount": 327200,
+		"totalSentenceCount": 21608
 	},
 	{
 		"threadID": "t1254641",
-		"threadTitle": "World of Tanks"
+		"threadTitle": "World of Tanks",
+		"numberOfUsers": 570,
+		"numberOfPosts": 17081,
+		"startDate": "2010-07-29",
+		"endDate": "2014-08-06",
+		"duration": 1470,
+		"totalWordCount": 908212,
+		"totalSentenceCount": 58605
 	},
 	{
 		"threadID": "t1275257",
-		"threadTitle": "Wikileaks grundare Julian Assange eftersökt för våldtäkt i Sverige"
+		"threadTitle": "Wikileaks grundare Julian Assange eftersökt för våldtäkt i Sverige",
+		"numberOfUsers": 1770,
+		"numberOfPosts": 61865,
+		"startDate": "2010-08-21",
+		"endDate": "2014-08-07",
+		"duration": 1448,
+		"totalWordCount": 4430621,
+		"totalSentenceCount": 284462
 	},
 	{
 		"threadID": "t1345419",
-		"threadTitle": "Den stora tråden om socialbidrag/försörjningsstöd"
+		"threadTitle": "Den stora tråden om socialbidrag/försörjningsstöd",
+		"numberOfUsers": 995,
+		"numberOfPosts": 4151,
+		"startDate": "2005-11-03",
+		"endDate": "2014-07-30",
+		"duration": 3192,
+		"totalWordCount": 289567,
+		"totalSentenceCount": 17491
 	},
 	{
 		"threadID": "t1423112",
-		"threadTitle": "Början på ett mediakrig om mångkulturen?"
+		"threadTitle": "Början på ett mediakrig om mångkulturen?",
+		"numberOfUsers": 1025,
+		"numberOfPosts": 19424,
+		"startDate": "2011-01-14",
+		"endDate": "2014-08-08",
+		"duration": 1303,
+		"totalWordCount": 2109362,
+		"totalSentenceCount": 127482
 	},
 	{
 		"threadID": "t1427614",
-		"threadTitle": "kall fusion"
+		"threadTitle": "kall fusion",
+		"numberOfUsers": 274,
+		"numberOfPosts": 2222,
+		"startDate": "2011-01-18",
+		"endDate": "2014-07-21",
+		"duration": 1281,
+		"totalWordCount": 158746,
+		"totalSentenceCount": 10488
 	},
 	{
 		"threadID": "t1452536",
-		"threadTitle": "Fördomar om studenter som pluggar {Fyll i valfritt program här}!"
+		"threadTitle": "Fördomar om studenter som pluggar {Fyll i valfritt program här}!",
+		"numberOfUsers": 766,
+		"numberOfPosts": 2054,
+		"startDate": "2011-02-10",
+		"endDate": "2014-08-07",
+		"duration": 1275,
+		"totalWordCount": 92693,
+		"totalSentenceCount": 6364
 	},
 	{
 		"threadID": "t1532220",
-		"threadTitle": "Varför hatar just du liberalism?"
+		"threadTitle": "Varför hatar just du liberalism?",
+		"numberOfUsers": 183,
+		"numberOfPosts": 1075,
+		"startDate": "2011-05-01",
+		"endDate": "2014-06-11",
+		"duration": 1138,
+		"totalWordCount": 128425,
+		"totalSentenceCount": 7698
 	},
 	{
 		"threadID": "t1532651",
-		"threadTitle": "Tråden om Usama bin Ladin"
+		"threadTitle": "Tråden om Usama bin Ladin",
+		"numberOfUsers": 642,
+		"numberOfPosts": 1706,
+		"startDate": "2009-02-10",
+		"endDate": "2014-07-29",
+		"duration": 1996,
+		"totalWordCount": 71987,
+		"totalSentenceCount": 4829
 	},
 	{
 		"threadID": "t1538501",
-		"threadTitle": "Studentboende i Linköping"
+		"threadTitle": "Studentboende i Linköping",
+		"numberOfUsers": 530,
+		"numberOfPosts": 3192,
+		"startDate": "2010-02-06",
+		"endDate": "2014-08-08",
+		"duration": 1645,
+		"totalWordCount": 145417,
+		"totalSentenceCount": 9600
 	},
 	{
 		"threadID": "t1605847",
-		"threadTitle": "Tråden om skotten på Utøya [Utbruten och sammanfogad]"
+		"threadTitle": "Tråden om skotten på Utøya [Utbruten och sammanfogad]",
+		"numberOfUsers": 2456,
+		"numberOfPosts": 18102,
+		"startDate": "2011-07-22",
+		"endDate": "2014-07-25",
+		"duration": 1100,
+		"totalWordCount": 777639,
+		"totalSentenceCount": 52919
 	},
 	{
 		"threadID": "t1636711",
-		"threadTitle": "Fråga rasisterna"
+		"threadTitle": "Fråga rasisterna",
+		"numberOfUsers": 849,
+		"numberOfPosts": 10107,
+		"startDate": "2011-05-07",
+		"endDate": "2013-04-26",
+		"duration": 721,
+		"totalWordCount": 1307043,
+		"totalSentenceCount": 76015
 	},
 	{
 		"threadID": "t1679139",
-		"threadTitle": "Vem bör efterträda misstaget Håkan Juholt?"
+		"threadTitle": "Vem bör efterträda misstaget Håkan Juholt?",
+		"numberOfUsers": 519,
+		"numberOfPosts": 1647,
+		"startDate": "2011-10-08",
+		"endDate": "2012-05-03",
+		"duration": 209,
+		"totalWordCount": 86394,
+		"totalSentenceCount": 5714
 	},
 	{
 		"threadID": "t1693393",
-		"threadTitle": "Sverigedemokraterna i opinionsundersökningar"
+		"threadTitle": "Sverigedemokraterna i opinionsundersökningar",
+		"numberOfUsers": 999,
+		"numberOfPosts": 16410,
+		"startDate": "2011-10-23",
+		"endDate": "2014-08-07",
+		"duration": 1020,
+		"totalWordCount": 1159313,
+		"totalSentenceCount": 73091
 	},
 	{
 		"threadID": "t1713465",
-		"threadTitle": "Onödiga småsaker ni stör er på"
+		"threadTitle": "Onödiga småsaker ni stör er på",
+		"numberOfUsers": 2784,
+		"numberOfPosts": 6408,
+		"startDate": "2011-11-13",
+		"endDate": "2014-08-07",
+		"duration": 999,
+		"totalWordCount": 353531,
+		"totalSentenceCount": 24844
 	},
 	{
 		"threadID": "t1718010",
-		"threadTitle": "Tråden om Chemtrails [sammanslagen tråd]"
+		"threadTitle": "Tråden om Chemtrails [sammanslagen tråd]",
+		"numberOfUsers": 446,
+		"numberOfPosts": 3966,
+		"startDate": "2006-10-19",
+		"endDate": "2014-08-07",
+		"duration": 2850,
+		"totalWordCount": 256856,
+		"totalSentenceCount": 16307
 	},
 	{
 		"threadID": "t1768191",
-		"threadTitle": "\"Kryssningsfartyget M/S Costa Concordia kantrat, flera omkomna\""
+		"threadTitle": "\"Kryssningsfartyget M/S Costa Concordia kantrat, flera omkomna\"",
+		"numberOfUsers": 352,
+		"numberOfPosts": 1492,
+		"startDate": "2012-01-14",
+		"endDate": "2014-07-27",
+		"duration": 926,
+		"totalWordCount": 68196,
+		"totalSentenceCount": 4416
 	},
 	{
 		"threadID": "t1792221",
-		"threadTitle": "Jobb i Norge del 2 - Se i FAQ i førsta inlägget innan du postar"
+		"threadTitle": "Jobb i Norge del 2 - Se i FAQ i førsta inlägget innan du postar",
+		"numberOfUsers": 1735,
+		"numberOfPosts": 8805,
+		"startDate": "2007-04-14",
+		"endDate": "2014-08-07",
+		"duration": 2673,
+		"totalWordCount": 486275,
+		"totalSentenceCount": 33184
 	},
 	{
 		"threadID": "t1837147",
-		"threadTitle": "Vad vet vi om Anders Breivik? [Sammanfogad tråd/mod]"
+		"threadTitle": "Vad vet vi om Anders Breivik? [Sammanfogad tråd/mod]",
+		"numberOfUsers": 880,
+		"numberOfPosts": 3636,
+		"startDate": "2011-07-23",
+		"endDate": "2014-08-04",
+		"duration": 1109,
+		"totalWordCount": 215171,
+		"totalSentenceCount": 13893
 	},
 	{
 		"threadID": "t1842501",
-		"threadTitle": "Kan Iran sänka amerikanskt hangarfartyg?"
+		"threadTitle": "Kan Iran sänka amerikanskt hangarfartyg?",
+		"numberOfUsers": 174,
+		"numberOfPosts": 2380,
+		"startDate": "2012-04-10",
+		"endDate": "2014-07-16",
+		"duration": 828,
+		"totalWordCount": 236651,
+		"totalSentenceCount": 14090
 	},
 	{
 		"threadID": "t1878926",
-		"threadTitle": "Blev våldtagen och hade kort kjol - klaga inte!"
+		"threadTitle": "Blev våldtagen och hade kort kjol - klaga inte!",
+		"numberOfUsers": 452,
+		"numberOfPosts": 3358,
+		"startDate": "2012-05-24",
+		"endDate": "2014-06-26",
+		"duration": 764,
+		"totalWordCount": 197794,
+		"totalSentenceCount": 12897
 	},
 	{
 		"threadID": "t1958696",
-		"threadTitle": "UFO-relaterad händelse - sammanställd av US Air Force."
+		"threadTitle": "UFO-relaterad händelse - sammanställd av US Air Force.",
+		"numberOfUsers": 38,
+		"numberOfPosts": 540,
+		"startDate": "2012-09-09",
+		"endDate": "2014-08-07",
+		"duration": 698,
+		"totalWordCount": 96332,
+		"totalSentenceCount": 5668
 	},
 	{
 		"threadID": "t2065199",
-		"threadTitle": "League of Legends - Den officiella tråden"
+		"threadTitle": "League of Legends - Den officiella tråden",
+		"numberOfUsers": 1193,
+		"numberOfPosts": 19152,
+		"startDate": "2013-01-24",
+		"endDate": "2014-08-08",
+		"duration": 562,
+		"totalWordCount": 858229,
+		"totalSentenceCount": 55945
 	},
 	{
 		"threadID": "t2114904",
-		"threadTitle": "Manlig aborträtt? Bör mannen ha rätt till abort?"
+		"threadTitle": "Manlig aborträtt? Bör mannen ha rätt till abort?",
+		"numberOfUsers": 266,
+		"numberOfPosts": 5744,
+		"startDate": "2007-08-06",
+		"endDate": "2014-07-27",
+		"duration": 2548,
+		"totalWordCount": 346984,
+		"totalSentenceCount": 21998
 	},
 	{
 		"threadID": "t2139074",
-		"threadTitle": "Boden: Mordet på Vatchareeya Bangsuan [Länk till sammanfattning i trådstarten]"
+		"threadTitle": "Boden: Mordet på Vatchareeya Bangsuan [Länk till sammanfattning i trådstarten]",
+		"numberOfUsers": 1670,
+		"numberOfPosts": 85313,
+		"startDate": "2013-05-08",
+		"endDate": "2014-08-08",
+		"duration": 458,
+		"totalWordCount": 4808312,
+		"totalSentenceCount": 310723
 	},
 	{
 		"threadID": "t2158037",
-		"threadTitle": "\"Prism / NSA - Facebook, Google, Microsoft, Apple, Yahoo - Snowden\""
+		"threadTitle": "\"Prism / NSA - Facebook, Google, Microsoft, Apple, Yahoo - Snowden\"",
+		"numberOfUsers": 298,
+		"numberOfPosts": 1241,
+		"startDate": "2013-06-07",
+		"endDate": "2014-08-04",
+		"duration": 424,
+		"totalWordCount": 75268,
+		"totalSentenceCount": 4851
 	},
 	{
 		"threadID": "t2256004",
-		"threadTitle": "Vänsterpartiet=bästa partiet för Sverige?"
+		"threadTitle": "Vänsterpartiet=bästa partiet för Sverige?",
+		"numberOfUsers": 149,
+		"numberOfPosts": 424,
+		"startDate": "2013-11-10",
+		"endDate": "2014-03-03",
+		"duration": 114,
+		"totalWordCount": 30238,
+		"totalSentenceCount": 1864
 	},
 	{
 		"threadID": "t2325003",
-		"threadTitle": "Stora tråden om rysk militär intervention i Ukraina (/Mod)"
+		"threadTitle": "Stora tråden om rysk militär intervention i Ukraina (/Mod)",
+		"numberOfUsers": 649,
+		"numberOfPosts": 5989,
+		"startDate": "2014-02-23",
+		"endDate": "2014-06-16",
+		"duration": 114,
+		"totalWordCount": 335136,
+		"totalSentenceCount": 21871
 	},
 	{
 		"threadID": "t2419260",
-		"threadTitle": "Stora skogsbranden i Västmanland sommaren 2014"
+		"threadTitle": "Stora skogsbranden i Västmanland sommaren 2014",
+		"numberOfUsers": 611,
+		"numberOfPosts": 3221,
+		"startDate": "2014-08-01",
+		"endDate": "2014-08-07",
+		"duration": 7,
+		"totalWordCount": 105361,
+		"totalSentenceCount": 7969
 	}
 ]

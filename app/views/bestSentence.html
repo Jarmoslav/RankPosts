@@ -1,4 +1,4 @@
-<h3> Bästa meningarna</h3>
+<h3> Bästa meningarna i tråden om:  <i style="color:gray">{{threadTitle}}</i></h3>
 <ul class="timeline" ng-repeat="sumPost in sumPosts">
   <li class="timeline-inverted">
     <div class="timeline-badge" ng-if ="sumPosts.length==1" style="background-color: #31b0d5">
@@ -10,7 +10,7 @@
     <div class="timeline-panel" ng-if ="sumPosts.length>1">
       <div class="timeline-heading">
         <!--<h4 class="timeline-title">Mussum ipsum cacilds</h4>-->
-        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{sumPost.postTime}}</small></p>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{sumPost.postDateTime}}</small></p>
       </div>
       <div class="timeline-body">
         <p>{{sumPost.sentence}}</p>

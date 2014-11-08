@@ -10,17 +10,16 @@
 angular.module('berkantApp')
   .controller('StatsCtrl', [ '$scope', 'promiseStats', function ($scope, promiseStats) {
 
-
     $scope.statistics = promiseStats.data;
 
     var theArrayPosts = [];
     var theArrayUserPosts = [];
-
-    for(var i=0; i<promiseStats.data.postsPerDay.length; i++){
-        theArrayPosts.push([new Date(promiseStats.data.postsPerDayDates[i]), promiseStats.data.postsPerDay[i][0]]);
+    console.log(promiseStats.data.topTenImportantPostUserNames.length);
+    for(var i=0; i<promiseStats.data.postsPerWeek.length; i++){
+        theArrayPosts.push([new Date(promiseStats.data.postsPerWeekDates[i]), promiseStats.data.postsPerWeek[i][0]]);
     }
-    for(var j=0; j< promiseStats.data.topTenUserPostCounts.length; j++){
-        theArrayUserPosts.push([promiseStats.data.topTenUserNames[j], promiseStats.data.topTenUserPostCounts[j]]);
+    for(var j=0; j< promiseStats.data.topTenImportantPostUserNames.length; j++){
+        theArrayUserPosts.push([promiseStats.data.topTenImportantPostUserNames[j], promiseStats.data.topTenImportantPostUserPostCount[j][0] ]);
     }
 
     $scope.threadTitle = promiseStats.data.threadTitle;
@@ -50,6 +49,7 @@ angular.module('berkantApp')
 
     $scope.yAxisTickFormatFunction = function() {
           return function(d){
+            console.log('yFormat', d);
             return d;
           };
     };

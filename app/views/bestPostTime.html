@@ -1,4 +1,4 @@
-<h3> Bästa inlägg efter tid</h3>
+<h3> Bästa inlägg efter tid i tråden om:  <i style="color:gray">{{threadTitle}}</i></h3>
 <!--temporal-->
 <ul class="timeline" ng-repeat="sumTemporalsPost in sumTemporalsPosts">
   <li class="timeline-inverted" >
@@ -6,7 +6,7 @@
     <div class="timeline-panel" ng-style={{sumTemporalsPost.style}}>
       <div class="timeline-heading">
         <!--<h4 class="timeline-title">Mussum ipsum cacilds</h4>-->
-        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{sumTemporalsPost.postTime}}</small></p>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{sumTemporalsPost.postDateTime}}</small></p>
       </div>
       <div class="timeline-body">
 

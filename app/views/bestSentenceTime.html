@@ -1,4 +1,4 @@
-<h3> Bästa meningar efter tid.</h3>
+<h3> Bästa meningar efter tid i tråden om:  <i style="color:gray">{{threadTitle}}</i></h3>
 <!--temporal-->
 <span ng-repeat="sumTemporal in sumTemporals" ng-init="sectionIndex = $index">
   <ul class="timeline" ng-repeat="s in sumTemporal track by $index" >
@@ -7,7 +7,7 @@
       <div class="timeline-panel" ng-class="{odd : sectionIndex%2==0, last:$last}">
         <div class="timeline-heading">
           <!--<h4 class="timeline-title">Mussum ipsum cacilds</h4>-->
-          <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{s.postTime}}</small></p>
+          <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{s.postDateTime}}</small></p>
         </div>
         <div class="timeline-body">
           <p>{{s.sentence}}</p>

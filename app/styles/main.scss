@@ -27,35 +27,37 @@ body {
 
 /*logo header*/
 #logo > a{
-  font-family: sans-serif;
+  font-family: Garamond, Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 3em;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 90%;
-  color: #1FDA9A !important;
-  text-shadow:
-    0 1px 0px #378ab4,
-    1px 0 0px #5dabcd,
-    1px 2px 1px #378ab4,
-    2px 1px 1px #5dabcd,
-    2px 3px 2px #378ab4,
-    3px 2px 2px #5dabcd,
-    3px 4px 2px #378ab4,
-    4px 3px 3px #5dabcd,
-    4px 5px 3px #378ab4,
-    5px 4px 2px #5dabcd,
-    5px 6px 2px #378ab4,
-    6px 5px 2px #5dabcd,
-    6px 7px 1px #378ab4,
-    7px 6px 1px #5dabcd,
-    7px 8px 0px #378ab4,
-    8px 7px 0px #5dabcd;
+  color: rgba(50, 0, 0, 0.5) !important;
+
 }
+
 
 /*tabs*/
-tab-heading{
-  text-size: 16px;
-
+.nav-tabs {
+   border-bottom: 1px solid #999999;
 }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+color: #999999;
+background-color: #FFFFF9;
+border: 1px solid #999999;
+border-bottom-color: transparent;
+}
+
+tab-heading {
+  text-size: 16px !important;
+  font-size: 16px;
+
+  a{
+    color: black;
+  }
+}
+
+
 /*stats*/
 
 /*list*/
@@ -302,12 +304,12 @@ h3 {
    margin-bottom: 10em !important;
 }
 
+
+
+
 @media (max-width: 767px !important) {
 
-  .mRow > ul > li{
 
-    float: none !important;
-  }
 
   ul.timeline {
     &:before {
@@ -348,6 +350,13 @@ h3 {
   #postPerDay[height="250px"], #postsPerUser[height="250px"] {
     height: 100px;
   }
+
+  .nav-tabs > li{
+
+      float: none !important;
+
+  }
+
 }
 
 .btn {

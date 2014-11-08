@@ -52,7 +52,7 @@ angular
     resolve:{
       promiseStats:  function($http, $stateParams){
         return $http.get('json/webstats/'+$stateParams.threadID+'-webstats.json').then(function(data){
-               
+
           return data;
         });
       }
@@ -87,7 +87,6 @@ angular
       }
     },
     controller: function($scope, promiseBestSentence){
-      console.log(promiseBestSentence);
       $scope.sumPosts = promiseBestSentence.data;
     }
 
@@ -95,12 +94,12 @@ angular
   })
   .state('thread.bestPostTemporal', {
     url: '/bestaInlaggEfterTid',
-    templateUrl: 'views/bestSentenceTime.html',
+    templateUrl: 'views/bestPostTime.html',
     resolve:{
       promiseBestPostTime:  function($http, $stateParams){
-        return $http.get('json/sentences-temporal/'+$stateParams.threadID+'-key-sentences-temporal.json').then(function(data){
-          console.log('data');
-          console.log(data);
+
+        return $http.get('json/posts-temporal/'+$stateParams.threadID+'-key-posts-temporal.json').then(function(data){
+            
           return data;
         });
       }
@@ -108,6 +107,19 @@ angular
     controller: 'TempCtrl',
 
 
+  })
+  .state('thread.bestSentenceTemporal', {
+    url: '/bestaMeningEfterTid',
+    templateUrl: 'views/bestSentenceTime.html',
+    resolve:{
+      promiseBestPostTime:  function($http, $stateParams){
+        return $http.get('json/sentences-temporal/'+$stateParams.threadID+'-key-sentences-temporal.json').then(function(data){
+
+          return data;
+        });
+      }
+    },
+    controller: 'TempCtrl',
   });
 
 

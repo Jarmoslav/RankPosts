@@ -10,8 +10,8 @@
           <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{s.postDateTime}}</small></p>
         </div>
         <div class="timeline-body">
-          <p>{{s.sentence}}</p>
-          <p> - <a style = "color: #666666;"  href="{{s.userUrl}}" target="_blank">{{s.postUser}}</a>
+          <span ng-bind-html="s.sentence"></span>
+          <p> - <a style = "color: #666666;"  href="{{s.userUrl}}" target="_blank">{{s.postUserName}}</a>
           <span class ="pull-right"><a href="{{s.postUrl}}" target="_blank">Källa</a>
           </span></p>
         </div>

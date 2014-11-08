@@ -29,10 +29,10 @@ angular
   $stateProvider
   .state('list', {
     url:'',
-    templateUrl: 'views/list.html',
+    templateUrl: '/views/list.html',
     resolve:{
       promiseObj:  function($http){
-        return $http.get('json/processedThreads.json').then(function(data){
+        return $http.get('/json/processedThreads.json').then(function(data){
 
           return data;
         });
@@ -48,10 +48,10 @@ angular
   })
   .state('thread', {
     url: '/:threadID',
-    templateUrl: 'views/main.html',
+    templateUrl: '/views/main.html',
     resolve:{
       promiseStats:  function($http, $stateParams){
-        return $http.get('json/webstats/'+$stateParams.threadID+'-webstats.json').then(function(data){
+        return $http.get('/json/webstats/'+$stateParams.threadID+'-webstats.json').then(function(data){
 
           return data;
         });
@@ -62,11 +62,11 @@ angular
   })
   .state('thread.bestPost', {
     url: '/bestaInlagg',
-    templateUrl: 'views/bestPost.html',
+    templateUrl: '/views/bestPost.html',
     resolve:{
       promiseBestPost:  function($http, $stateParams){
-        return $http.get('json/posts-all/'+$stateParams.threadID+'-key-posts-all.json').then(function(data){
-          console.log('data');
+        return $http.get('/json/posts-all/'+$stateParams.threadID+'-key-posts-all.json').then(function(data){
+
           return data;
         });
       }
@@ -77,11 +77,11 @@ angular
   })
   .state('thread.bestSentence', {
     url: '/bestameningar',
-    templateUrl: 'views/bestSentence.html',
+    templateUrl: '/views/bestSentence.html',
     resolve:{
       promiseBestSentence:  function($http, $stateParams){
-        return $http.get('json/sentences-all/'+$stateParams.threadID+'-key-sentences-all.json').then(function(data){
-          console.log('data');
+        return $http.get('/json/sentences-all/'+$stateParams.threadID+'-key-sentences-all.json').then(function(data){
+
           return data;
         });
       }
@@ -94,12 +94,12 @@ angular
   })
   .state('thread.bestPostTemporal', {
     url: '/bestaInlaggEfterTid',
-    templateUrl: 'views/bestPostTime.html',
+    templateUrl: '/views/bestPostTime.html',
     resolve:{
       promiseBestPostTime:  function($http, $stateParams){
 
-        return $http.get('json/posts-temporal/'+$stateParams.threadID+'-key-posts-temporal.json').then(function(data){
-            
+        return $http.get('/json/posts-temporal/'+$stateParams.threadID+'-key-posts-temporal.json').then(function(data){
+
           return data;
         });
       }
@@ -110,10 +110,10 @@ angular
   })
   .state('thread.bestSentenceTemporal', {
     url: '/bestaMeningEfterTid',
-    templateUrl: 'views/bestSentenceTime.html',
+    templateUrl: '/views/bestSentenceTime.html',
     resolve:{
       promiseBestPostTime:  function($http, $stateParams){
-        return $http.get('json/sentences-temporal/'+$stateParams.threadID+'-key-sentences-temporal.json').then(function(data){
+        return $http.get('/json/sentences-temporal/'+$stateParams.threadID+'-key-sentences-temporal.json').then(function(data){
 
           return data;
         });

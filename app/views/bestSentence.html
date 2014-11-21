@@ -1,22 +1,30 @@
 <h3> Bästa meningarna i tråden om:  <i style="color:gray">{{threadTitle}}</i></h3>
 <ul class="timeline" ng-repeat="sumPost in sumPosts">
   <li class="timeline-inverted">
-    <div class="timeline-badge" ng-if ="sumPosts.length==1" style="background-color: #31b0d5">
+    <!-- <div class="timeline-badge" ng-if ="sumPosts.length==1" style="background-color: #31b0d5">
        <i class="glyphicon glyphicon-info-sign"></i>
     </div>
     <div class="timeline-badge" ng-if ="sumPosts.length>1">
        <i class="glyphicon glyphicon-user"></i>{{$index + 1}}
-    </div>
+    </div> -->
     <div class="timeline-panel" ng-if ="sumPosts.length>1">
-      <div class="timeline-heading">
-        <!--<h4 class="timeline-title">Mussum ipsum cacilds</h4>-->
-        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{sumPost.postDateTime}}</small></p>
+      <div class="timeline-heading" class="text-muted"  ng-click="custom=!custom">
+        Inlägg #{{sumPost.rankGlobal}}: {{sumPost.scoreGlobal}}p
+        Skrivet av <a href="{{sumPost.postUserUrl}}" target="_blank">
+        {{sumPost.postUserName}}</a>, användare #{{sumPost.userRank}}:  {{sumPost.userScore}}p
+          <span class ="pull-right">{{sumPost.postDateTime}}</span>
+          <hr>
       </div>
-      <div class="timeline-body">
+      <div ng-hide="custom"></div>
+      <div ng-click="custom=!custom" ng-show="custom"  class="timeline-body">
         <p>{{sumPost.sentence}}</p>
-        <p> - <a style = "color: #666666;" href="{{sumPost.postUserUrl}}" target="_blank">{{sumPost.postUserName}}</a>
-        <span class ="pull-right"><a href="{{sumPost.postUserUrl}}" target="_blank">Källa</a>
-        </span></p>
+        <hr>
+
+        <!-- <i class="glyphicon glyphicon-time"></i> -->
+        Källa: <a href="{{sumPost.postUrlInThread}}" target="_blank">{{sumPost.postUrlInThread}}</a>
+        <!--
+        <a href="{{sumPost.postUrlUniq}}" target="_blank">{{sumPost.postUrlUniq}}</a>-->
+
       </div>
     </div>
 

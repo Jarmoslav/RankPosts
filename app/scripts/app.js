@@ -24,7 +24,7 @@ angular
 ])
 .config(function($stateProvider, $urlRouterProvider) {
 
-  $urlRouterProvider.when('/:threadID', '/:threadID/bestaInlagg');
+  $urlRouterProvider.when('/:threadID', '/:threadID/bp');
 
   $stateProvider
   .state('list', {
@@ -61,7 +61,7 @@ angular
 
   })
   .state('thread.bestPost', {
-    url: '/bestaInlagg',
+    url: '/bp',
     templateUrl: '/views/bestPost.html',
     resolve:{
       promiseBestPost:  function($http, $stateParams){
@@ -72,6 +72,7 @@ angular
       }
     },
     controller: function($scope, promiseBestPost){
+      $scope.custom = false;
       $scope.sumPostsAll = promiseBestPost.data;
     }
   })
@@ -102,6 +103,13 @@ angular
 
           return data;
         });
+      },
+      promiseBestPostTimeMoreInfo:  function($http, $stateParams){
+
+        return $http.get('/json/sentences-temporal/'+$stateParams.threadID+'-division-info.json').then(function(data){
+               
+          return data;
+        });
       }
     },
     controller: 'TempCtrl',
@@ -120,6 +128,11 @@ angular
       }
     },
     controller: 'TempCtrl',
+  })
+  .state('about', {
+    url: 'about',
+    templateUrl: '/views/about.html',
+
   });
 
 

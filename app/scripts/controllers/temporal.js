@@ -8,7 +8,8 @@
  * Controller of the berkantApp
  */
 angular.module('berkantApp')
-  .controller('TempCtrl',['$scope', 'promiseBestPostTime', function ($scope, promiseBestPostTime) {
+  .controller('TempCtrl',['$scope', 'promiseBestPostTime', 'promiseBestPostTimeMoreInfo', function ($scope, promiseBestPostTime, promiseBestPostTimeMoreInfo) {
     $scope.sumTemporals = promiseBestPostTime.data;
+    $scope.sumTemporalsMoreInfo = promiseBestPostTimeMoreInfo.data;
 
   }]);

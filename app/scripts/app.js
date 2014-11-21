@@ -10,12 +10,8 @@
 */
 angular
 .module('berkantApp', [
-  'ngAnimate',
-  'ngCookies',
   'ngResource',
-  'ngRoute',
   'ngSanitize',
-  'ngTouch',
   'ui.router',
   'ui.bootstrap',
   'nvd3ChartDirectives',
@@ -31,31 +27,31 @@ angular
     url:'',
     templateUrl: '/views/list.html',
     resolve:{
-      promiseObj:  function($http){
+      promiseObj:  ['$http',function($http){
         return $http.get('/json/processedThreads.json').then(function(data){
 
           return data;
         });
-      }
+      }]
     },
-    controller: function($scope, promiseObj){
+    controller: ['$scope', 'promiseObj' ,function($scope, promiseObj){
       $scope.orderByField = 'threadTitle';
       $scope.reverseSort = false;
 
       $scope.fileNames = promiseObj.data;
-    }
+    }]
 
   })
   .state('thread', {
     url: '/:threadID',
     templateUrl: '/views/main.html',
     resolve:{
-      promiseStats:  function($http, $stateParams){
+      promiseStats:  ['$http', '$stateParams',function($http, $stateParams){
         return $http.get('/json/webstats/'+$stateParams.threadID+'-webstats.json').then(function(data){
 
           return data;
         });
-      }
+      }]
     },
     controller: 'StatsCtrl',
 
@@ -64,31 +60,35 @@ angular
     url: '/bestaInlagg',
     templateUrl: '/views/bestPost.html',
     resolve:{
-      promiseBestPost:  function($http, $stateParams){
+      promiseBestPost:  ['$http', '$stateParams',function($http, $stateParams){
         return $http.get('/json/posts-all/'+$stateParams.threadID+'-key-posts-all.json').then(function(data){
 
           return data;
         });
-      }
+      }]
     },
-    controller: function($scope, promiseBestPost){
+    controller: ['$scope', 'promiseBestPost',function($scope, promiseBestPost){
       $scope.sumPostsAll = promiseBestPost.data;
-    }
+      $scope.toggle = function() {
+         $scope.isVisible = ! $scope.isVisible;
+
+      };
+    }]
   })
   .state('thread.bestSentence', {
     url: '/bestameningar',
     templateUrl: '/views/bestSentence.html',
     resolve:{
-      promiseBestSentence:  function($http, $stateParams){
+      promiseBestSentence:  ['$http', '$stateParams',function($http, $stateParams){
         return $http.get('/json/sentences-all/'+$stateParams.threadID+'-key-sentences-all.json').then(function(data){
 
           return data;
         });
-      }
+      }]
     },
-    controller: function($scope, promiseBestSentence){
+    controller: ['$scope', 'promiseBestSentence',function($scope, promiseBestSentence){
       $scope.sumPosts = promiseBestSentence.data;
-    }
+    }]
 
 
   })
@@ -96,13 +96,13 @@ angular
     url: '/bestaInlaggEfterTid',
     templateUrl: '/views/bestPostTime.html',
     resolve:{
-      promiseBestPostTime:  function($http, $stateParams){
+      promiseBestPostTime:  ['$http', '$stateParams',function($http, $stateParams){
 
         return $http.get('/json/posts-temporal/'+$stateParams.threadID+'-key-posts-temporal.json').then(function(data){
 
           return data;
         });
-      }
+      }]
     },
     controller: 'TempCtrl',
 
@@ -112,12 +112,12 @@ angular
     url: '/bestaMeningEfterTid',
     templateUrl: '/views/bestSentenceTime.html',
     resolve:{
-      promiseBestPostTime:  function($http, $stateParams){
+      promiseBestPostTime:  ['$http', '$stateParams', function($http, $stateParams){
         return $http.get('/json/sentences-temporal/'+$stateParams.threadID+'-key-sentences-temporal.json').then(function(data){
 
           return data;
         });
-      }
+      }]
     },
     controller: 'TempCtrl',
   });

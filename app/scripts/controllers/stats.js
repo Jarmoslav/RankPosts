@@ -37,7 +37,9 @@ angular.module('berkantApp')
    $scope.toggle = function() {
       $scope.isVisible = ! $scope.isVisible;
 
-  };
+   };
+
+
 
 
     $scope.xAxisTickFormat = function(){
@@ -49,7 +51,7 @@ angular.module('berkantApp')
 
     $scope.yAxisTickFormatFunction = function() {
           return function(d){
-            console.log('yFormat', d);
+
             return d;
           };
     };

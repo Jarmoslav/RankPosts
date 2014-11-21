@@ -226,7 +226,7 @@ module.exports = function (grunt) {
         flow: {
           html: {
             steps: { // tog jag bort.. 'uglifyjs'
-              js: ['concat'],
+              js: ['concat','uglifyjs'],
               css: ['cssmin']
             },
             post: {}
@@ -431,10 +431,10 @@ module.exports = function (grunt) {
     'copy:dist',
     'cdnify',
     'cssmin',
-    //'uglify',
+    'uglify',
     'filerev',
-    'usemin'
-    //'htmlmin'
+    'usemin',
+    'htmlmin'
   ]);
 
   grunt.registerTask('default', [

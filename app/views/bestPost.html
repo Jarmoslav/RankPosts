@@ -1,16 +1,17 @@
 <h3> Bästa inlägg i tråden om:  <i style="color:gray">{{threadTitle}}</i></h3>
 <ul class="timeline" ng-repeat="sumPost in sumPostsAll">
   <li class="timeline-inverted">
-    <div class="timeline-badge"><i class="glyphicon glyphicon-user"></i>{{$index + 1}}</div>
+
     <div class="timeline-panel">
       <div class="timeline-heading">
         <!--<h4 class="timeline-title">Mussum ipsum cacilds</h4>-->
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{sumPost.postDateTime}}</small></p>
       </div>
-      <div class="timeline-body">
 
-        <span ng-bind-html="sumPost.sentence"></span>
-        <p></p>
+      <div ng-click="toggle()" class="timeline-body"><a href >Toggle content</a>
+
+        <span ng-bind-html="sumPost.sentence" bn-slide-show="isVisible"></span>
+
         <p> - <a style = "color: #666666;"  href="{{sumPost.postUserUrl}}" target="_blank">{{sumPost.postUserName}}</a>
         <span class ="pull-right"><a href="{{sumPost.postUserUrl}}" target="_blank">Källa</a>
         </span></p>

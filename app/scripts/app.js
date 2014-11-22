@@ -20,7 +20,7 @@ angular
 ])
 .config(function($stateProvider, $urlRouterProvider) {
 
-  $urlRouterProvider.when('/:threadID', '/:threadID/bestaInlagg');
+  $urlRouterProvider.when('/:threadID', '/:threadID/bp');
 
   $stateProvider
   .state('list', {
@@ -57,18 +57,17 @@ angular
 
   })
   .state('thread.bestPost', {
-    url: '/bestaInlagg',
+    url: '/bp',
     templateUrl: '/views/bestPost.html',
     resolve:{
       promiseBestTextObject:  ['$http', '$stateParams',function($http, $stateParams){
         return $http.get('/json/posts-all/'+$stateParams.threadID+'-key-posts-all.json').then(function(data){
-
-             console.log('eheehe');
           return data;
         });
       }]
     },
     controller: 'BestCtrl',
+
   })
   .state('thread.bestSentence', {
     url: '/bestameningar',
@@ -96,9 +95,9 @@ angular
           return data;
         });
       }]
+
     },
     controller: 'TempCtrl',
-
 
   })
   .state('thread.bestSentenceTemporal', {
@@ -113,6 +112,11 @@ angular
       }]
     },
     controller: 'TempCtrl',
+  })
+  .state('about', {
+    url: 'about',
+    templateUrl: '/views/about.html',
+
   });
 
 

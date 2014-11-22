@@ -60,35 +60,28 @@ angular
     url: '/bestaInlagg',
     templateUrl: '/views/bestPost.html',
     resolve:{
-      promiseBestPost:  ['$http', '$stateParams',function($http, $stateParams){
+      promiseBestTextObject:  ['$http', '$stateParams',function($http, $stateParams){
         return $http.get('/json/posts-all/'+$stateParams.threadID+'-key-posts-all.json').then(function(data){
 
+             console.log('eheehe');
           return data;
         });
       }]
     },
-    controller: ['$scope', 'promiseBestPost',function($scope, promiseBestPost){
-      $scope.sumPostsAll = promiseBestPost.data;
-      $scope.toggle = function() {
-         $scope.isVisible = ! $scope.isVisible;
-
-      };
-    }]
+    controller: 'BestCtrl',
   })
   .state('thread.bestSentence', {
     url: '/bestameningar',
     templateUrl: '/views/bestSentence.html',
     resolve:{
-      promiseBestSentence:  ['$http', '$stateParams',function($http, $stateParams){
+      promiseBestTextObject:  ['$http', '$stateParams',function($http, $stateParams){
         return $http.get('/json/sentences-all/'+$stateParams.threadID+'-key-sentences-all.json').then(function(data){
 
           return data;
         });
       }]
     },
-    controller: ['$scope', 'promiseBestSentence',function($scope, promiseBestSentence){
-      $scope.sumPosts = promiseBestSentence.data;
-    }]
+    controller: 'BestCtrl',
 
 
   })
@@ -121,6 +114,7 @@ angular
     },
     controller: 'TempCtrl',
   });
+
 
 
 

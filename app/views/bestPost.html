@@ -8,9 +8,9 @@
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{sumPost.postDateTime}}</small></p>
       </div>
 
-      <div ng-click="toggle()" class="timeline-body"><a href >Toggle content</a>
 
-        <span ng-bind-html="sumPost.sentence" bn-slide-show="isVisible"></span>
+
+        <div ng-bind-html="sumPost.sentence | ellipsis: 1000" ></div>
 
         <p> - <a style = "color: #666666;"  href="{{sumPost.postUserUrl}}" target="_blank">{{sumPost.postUserName}}</a>
         <span class ="pull-right"><a href="{{sumPost.postUserUrl}}" target="_blank">Källa</a>

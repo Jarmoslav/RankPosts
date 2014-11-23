@@ -20,7 +20,7 @@ angular
 ])
 .config(function($stateProvider, $urlRouterProvider) {
 
-  $urlRouterProvider.when('/:threadID', '/:threadID/bp');
+  $urlRouterProvider.when('/:threadID', '/:threadID/bestpost');
 
   $stateProvider
   .state('list', {
@@ -42,6 +42,14 @@ angular
     }]
 
   })
+  .state('about', {
+    url: '//about/', //remove the ones, easy fix
+    templateUrl: '/views/about.html',
+    controller: function($scope){
+      $scope.title = 'about';
+    }
+
+  })
   .state('thread', {
     url: '/:threadID',
     templateUrl: '/views/main.html',
@@ -56,8 +64,8 @@ angular
     controller: 'StatsCtrl',
 
   })
-  .state('thread.bestPost', {
-    url: '/bp',
+  .state('thread.bestpost', {
+    url: '/bestpost',
     templateUrl: '/views/bestPost.html',
     resolve:{
       promiseBestTextObject:  ['$http', '$stateParams',function($http, $stateParams){
@@ -71,11 +79,10 @@ angular
   })
   .state('thread.bestSentence', {
     url: '/bestameningar',
-    templateUrl: '/views/bestSentence.html',
+    templateUrl: '/views/bestPost.html',
     resolve:{
       promiseBestTextObject:  ['$http', '$stateParams',function($http, $stateParams){
         return $http.get('/json/sentences-all/'+$stateParams.threadID+'-key-sentences-all.json').then(function(data){
-
           return data;
         });
       }]
@@ -89,9 +96,7 @@ angular
     templateUrl: '/views/bestPostTime.html',
     resolve:{
       promiseBestPostTime:  ['$http', '$stateParams',function($http, $stateParams){
-
         return $http.get('/json/posts-temporal/'+$stateParams.threadID+'-key-posts-temporal.json').then(function(data){
-
           return data;
         });
       }]
@@ -102,7 +107,7 @@ angular
   })
   .state('thread.bestSentenceTemporal', {
     url: '/bestaMeningEfterTid',
-    templateUrl: '/views/bestSentenceTime.html',
+    templateUrl: '/views/bestPostTime.html',
     resolve:{
       promiseBestPostTime:  ['$http', '$stateParams', function($http, $stateParams){
         return $http.get('/json/sentences-temporal/'+$stateParams.threadID+'-key-sentences-temporal.json').then(function(data){
@@ -112,11 +117,6 @@ angular
       }]
     },
     controller: 'TempCtrl',
-  })
-  .state('about', {
-    url: 'about',
-    templateUrl: '/views/about.html',
-
   });
 
 

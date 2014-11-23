@@ -9,6 +9,8 @@
 */
 angular.module('berkantApp')
 .controller('BestCtrl',['$scope', 'promiseBestTextObject', function ($scope, promiseBestTextObject) {
+
+  $scope.bestType = "lol";
   $scope.sumPostsAll = promiseBestTextObject.data;
 }]);
 
@@ -16,8 +18,6 @@ angular.module('berkantApp')
 
 angular.module('berkantApp').filter('ellipsis', [ '$sce',function ($sce) {
   return function (sentence, length) {
-    //console.log('sss');
-
-    return $sce.trustAsHtml(sentence.substr(0, 500));
+    return $sce.trustAsHtml(sentence.substr(0, 500)+"...");
   }
 }]);

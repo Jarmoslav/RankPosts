@@ -4,7 +4,7 @@
 
     <!-- <div class="timeline-badge"><i class="glyphicon glyphicon-user"></i>{{$index + 1}}</div> -->
     <div class="timeline-panel">
-      <div class="timeline-heading" ng-click="custom=!custom">
+      <div class="timeline-heading shadowEndOfSentence" ng-click="custom=!custom">
         <p>
           <!-- <button > </button> -->
             Inlägg #{{sumPost.rankGlobal}}: {{sumPost.scoreGlobal}}p
@@ -16,7 +16,7 @@
           <hr>
       </div>
       <div ng-hide="custom"  ng-click="custom=!custom"><div ng-bind-html="sumPost.sentence | ellipsis: 1000"  ></div></div>
-      <div ng-click="custom=!custom" ng-show="custom"  class="timeline-body">
+      <div ng-click="custom=!custom" ng-show="custom"  class="timeline-body " >
 
         <span ng-bind-html="sumPost.sentence"></span>
         <hr>

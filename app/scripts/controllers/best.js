@@ -18,6 +18,6 @@ angular.module('berkantApp')
 
 angular.module('berkantApp').filter('ellipsis', [ '$sce',function ($sce) {
   return function (sentence, length) {
-    return $sce.trustAsHtml(sentence.substr(0, 500)+"...");
+    return $sce.trustAsHtml(sentence.substr(0, 500)+"...<a><p>Mer innehåll</p></a>");
   }
 }]);

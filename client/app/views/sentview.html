@@ -1,0 +1,25 @@
+<ul class="timeline" ng-repeat="sumPost in sumPostsAll  track by $index">
+  <li class="timeline-inverted">
+    <section>
+      <a id={{$index+1}}></a>
+   </section>
+    <div class="timeline-panel">
+      <div class="timeline-heading" ng-click="custom=!custom">
+        Mening #{{sumPost.rankGlobal}}: {{sumPost.scoreGlobal}}p
+        Skrivet av
+        <a href="{{sumPost.postUserUrl}}" target="_blank">{{sumPost.postUserName}}</a>,
+        användare #{{sumPost.userRank}}:  {{sumPost.userScore}}p
+        <span class ="pull-right">{{sumPost.postDateTime}}</span>
+        <hr>
+      </div>
+      <!-- <div ng-hide="custom" ng-click="custom=!custom" ng-bind-html="sumPost.sentence | ellipsis: 100" ></div> -->
+      <div ng-hide="custom" ng-click="custom=!custom"><span ng-bind-html="sumPost.sentence"></span></div>
+      <div ng-show="custom" ng-click="custom=!custom; scrollTo($index+1)" class="timeline-body">
+        <span ng-bind-html="sumPost.sentence"></span>
+        <hr>
+        <a href="{{sumPost.postUrlUniq}}">Källa:</a> <a href="{{sumPost.postUrlInThread}}" target="_blank">{{sumPost.postUrlInThread}}</a>
+        <br>
+      </div>
+    </div>
+  </li>
+</ul>

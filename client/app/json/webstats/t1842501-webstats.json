@@ -303,27 +303,27 @@
 	],
 	"topTenActiveUserSentRank": [
 		[1],
-		[2],
-		[3],
-		[10],
-		[16],
-		[6],
-		[5],
-		[8],
 		[4],
-		[17]
+		[2],
+		[11],
+		[26],
+		[5],
+		[6],
+		[8],
+		[3],
+		[18]
 	],
 	"topTenActiveUserSentScore": [
 		[100],
-		[79],
-		[77.5],
-		[27.1],
-		[15],
+		[84.4],
+		[86.5],
+		[27.9],
+		[11.5],
+		[57.8],
 		[53.1],
-		[58],
-		[28.4],
-		[76.9],
-		[13.6]
+		[30.5],
+		[86.5],
+		[14.8]
 	],
 	"topTenActiveUserPostRank": [
 		[1],
@@ -351,39 +351,39 @@
 	],
 	"topTenImportantSentUserNames": [
 		"IR5",
-		"mace2442",
 		"T-80U",
 		"Jecke",
-		"IRI",
+		"mace2442",
 		"Ormen Långe",
+		"IRI",
 		"Massaraduvet",
 		"Dr.Spin",
-		"IR10",
-		"Moffmeister"
+		"Praetori",
+		"BuprenOrvar"
 	],
 	"topTenImportantSentUserIDs": [
 		[392693],
-		[574540],
 		[465331],
 		[114224],
-		[824274],
+		[574540],
 		[76197],
+		[824274],
 		[844125],
 		[496782],
-		[905834],
-		[394502]
+		[345427],
+		[485037]
 	],
 	"topTenImportantSentUserPostCount": [
 		[236],
-		[216],
 		[212],
 		[56],
-		[102],
+		[216],
 		[104],
+		[102],
 		[38],
 		[62],
-		[36],
-		[112]
+		[28],
+		[44]
 	],
 	"topTenImportantSentUserRank": [
 		[1],
@@ -399,15 +399,15 @@
 	],
 	"topTenImportantSentUserScore": [
 		[100],
-		[79],
-		[77.5],
-		[76.9],
-		[58],
+		[86.5],
+		[86.5],
+		[84.4],
+		[57.8],
 		[53.1],
-		[37.9],
-		[28.4],
-		[27.9],
-		[27.1]
+		[39],
+		[30.5],
+		[29.2],
+		[28]
 	],
 	"topTenImportantPostUserNames": [
 		"IR5",

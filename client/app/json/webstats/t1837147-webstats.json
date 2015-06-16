@@ -386,26 +386,26 @@
 	"topTenActiveUserSentRank": [
 		[1],
 		[2],
-		[16],
-		[6],
-		[48],
-		[4],
-		[18],
-		[26],
+		[11],
+		[5],
+		[62],
+		[7],
 		[23],
-		[10]
+		[29],
+		[20],
+		[9]
 	],
 	"topTenActiveUserSentScore": [
 		[100],
-		[28.8],
-		[6.1],
-		[8.3],
-		[2.9],
-		[9.4],
-		[5.8],
-		[5],
-		[5.3],
-		[7.3]
+		[29.5],
+		[6.7],
+		[8.1],
+		[2.6],
+		[7.5],
+		[5.4],
+		[4.5],
+		[5.6],
+		[7.4]
 	],
 	"topTenActiveUserPostRank": [
 		[1],
@@ -435,37 +435,37 @@
 		"NothingToLose",
 		"thewellovedone",
 		"Bladderblad",
-		"trollig",
 		"sayyadina99",
 		"Andemening",
-		"Tinman",
 		"Batuta",
-		"ChristerN",
-		"Grandioso"
+		"trollig",
+		"Tinman",
+		"Grandioso",
+		"Kinuski"
 	],
 	"topTenImportantSentUserIDs": [
 		[604998],
 		[719721],
 		[696908],
-		[511973],
 		[228046],
 		[574046],
-		[257226],
 		[374028],
-		[462241],
-		[521090]
+		[511973],
+		[257226],
+		[521090],
+		[581534]
 	],
 	"topTenImportantSentUserPostCount": [
 		[661],
 		[119],
 		[14],
-		[38],
 		[22],
 		[41],
-		[34],
 		[28],
-		[13],
-		[36]
+		[38],
+		[34],
+		[36],
+		[18]
 	],
 	"topTenImportantSentUserRank": [
 		[1],
@@ -481,15 +481,15 @@
 	],
 	"topTenImportantSentUserScore": [
 		[100],
-		[28.8],
-		[9.7],
-		[9.4],
-		[8.9],
-		[8.3],
-		[7.9],
-		[7.7],
+		[29.5],
+		[9.3],
+		[8.5],
+		[8.1],
+		[7.8],
+		[7.5],
 		[7.4],
-		[7.3]
+		[7.4],
+		[7.4]
 	],
 	"topTenImportantPostUserNames": [
 		"NothingToLose",

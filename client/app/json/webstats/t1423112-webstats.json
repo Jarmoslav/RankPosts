@@ -438,28 +438,28 @@
 		[365]
 	],
 	"topTenActiveUserSentRank": [
-		[5],
+		[4],
 		[8],
 		[6],
 		[7],
 		[16],
 		[10],
 		[1],
-		[3],
 		[2],
-		[19]
+		[5],
+		[20]
 	],
 	"topTenActiveUserSentScore": [
-		[84.9],
-		[70.3],
-		[79.6],
-		[71.5],
-		[33.2],
-		[48.3],
+		[89.9],
+		[68.1],
+		[83.5],
+		[75.9],
+		[35],
+		[50.2],
 		[100],
-		[89.1],
-		[92.5],
-		[28.5]
+		[97.7],
+		[85.7],
+		[29.1]
 	],
 	"topTenActiveUserPostRank": [
 		[1],
@@ -487,10 +487,10 @@
 	],
 	"topTenImportantSentUserNames": [
 		"TheLucky",
-		"lampros",
 		"oyto",
 		"Dogdylan",
 		"Siegfrid",
+		"lampros",
 		"CrispyKreem",
 		"Andraandningen",
 		"Meiji",
@@ -499,10 +499,10 @@
 	],
 	"topTenImportantSentUserIDs": [
 		[212355],
-		[249453],
 		[509120],
 		[138043],
 		[62578],
+		[249453],
 		[64250],
 		[393076],
 		[163355],
@@ -511,10 +511,10 @@
 	],
 	"topTenImportantSentUserPostCount": [
 		[515],
-		[369],
 		[396],
 		[212],
 		[895],
+		[369],
 		[671],
 		[573],
 		[893],
@@ -535,15 +535,15 @@
 	],
 	"topTenImportantSentUserScore": [
 		[100],
-		[92.5],
-		[89.1],
-		[88.9],
-		[84.9],
-		[79.6],
-		[71.5],
-		[70.3],
-		[52.8],
-		[48.3]
+		[97.7],
+		[92.6],
+		[89.9],
+		[85.7],
+		[83.5],
+		[75.9],
+		[68.1],
+		[57.5],
+		[50.2]
 	],
 	"topTenImportantPostUserNames": [
 		"Siegfrid",

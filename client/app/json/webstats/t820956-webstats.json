@@ -648,26 +648,26 @@
 	"topTenActiveUserSentRank": [
 		[1],
 		[3],
+		[18],
+		[6],
+		[12],
+		[14],
 		[9],
-		[5],
-		[13],
-		[15],
-		[11],
-		[33],
+		[54],
 		[2],
-		[12]
+		[11]
 	],
 	"topTenActiveUserSentScore": [
 		[100],
-		[56.5],
-		[31.3],
-		[42.4],
-		[28.6],
-		[23.7],
-		[30.4],
-		[15.1],
-		[62.4],
-		[28.7]
+		[52.7],
+		[19.3],
+		[36.2],
+		[26.7],
+		[22.1],
+		[32.5],
+		[11.1],
+		[66],
+		[29.7]
 	],
 	"topTenActiveUserPostRank": [
 		[1],
@@ -698,11 +698,11 @@
 		"kostymnisse",
 		"HerrGickhan",
 		"supersmurfigt",
-		"mishima",
 		"sm910dif",
+		"mishima",
 		"tryffel",
 		"wonderland",
-		"Trumpeter",
+		"eternussermo",
 		"Oddball"
 	],
 	"topTenImportantSentUserIDs": [
@@ -710,11 +710,11 @@
 		[468903],
 		[485266],
 		[113915],
-		[82612],
 		[315077],
+		[82612],
 		[167197],
 		[98692],
-		[134149],
+		[433787],
 		[59942]
 	],
 	"topTenImportantSentUserPostCount": [
@@ -722,11 +722,11 @@
 		[46],
 		[117],
 		[12],
-		[83],
 		[12],
+		[83],
 		[23],
 		[35],
-		[115],
+		[53],
 		[31]
 	],
 	"topTenImportantSentUserRank": [
@@ -743,15 +743,15 @@
 	],
 	"topTenImportantSentUserScore": [
 		[100],
-		[62.4],
-		[56.5],
-		[45.9],
-		[42.4],
-		[38.8],
-		[37.6],
-		[32.7],
-		[31.3],
-		[30.8]
+		[66],
+		[52.7],
+		[45.4],
+		[42.7],
+		[36.2],
+		[35],
+		[32.8],
+		[32.5],
+		[31.7]
 	],
 	"topTenImportantPostUserNames": [
 		"Dr King",

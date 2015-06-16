@@ -432,16 +432,16 @@
 		[46]
 	],
 	"topTenActiveUserSentRank": [
-		[226],
-		[242],
-		[181],
+		[232],
+		[244],
+		[191],
 		[262],
-		[61],
-		[107],
-		[109],
-		[74],
-		[39],
-		[92]
+		[79],
+		[122],
+		[124],
+		[91],
+		[59],
+		[109]
 	],
 	"topTenActiveUserSentScore": [
 		["-_Inf_"],
@@ -480,37 +480,37 @@
 		[26.8]
 	],
 	"topTenImportantSentUserNames": [
+		"Stocko",
+		"prezet",
+		"kinky_M",
+		"sPaZz",
 		"komocka",
+		"gunar_prinze_jr",
 		"cajoseno",
+		"Nejda",
 		"Asgarvad",
-		"pontusen",
-		"optimum",
-		"Alkohol",
-		"lullebulle",
-		"Offsure",
-		"Dreday",
-		"Snaxe"
+		"pontusen"
 	],
 	"topTenImportantSentUserIDs": [
+		[13],
+		[152],
+		[6809],
+		[73452],
 		[89286],
+		[96226],
 		[105518],
+		[108331],
 		[112801],
-		[115612],
-		[187150],
-		[209268],
-		[245716],
-		[289261],
-		[323729],
-		[325193]
+		[115612]
 	],
 	"topTenImportantSentUserPostCount": [
 		[1],
 		[1],
 		[1],
-		[1],
-		[1],
-		[1],
 		[3],
+		[1],
+		[1],
+		[1],
 		[1],
 		[1],
 		[1]

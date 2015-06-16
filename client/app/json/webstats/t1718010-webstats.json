@@ -881,27 +881,27 @@
 	],
 	"topTenActiveUserSentRank": [
 		[2],
-		[7],
-		[6],
 		[8],
+		[6],
+		[7],
 		[1],
-		[12],
-		[25],
-		[14],
 		[13],
+		[26],
+		[15],
+		[12],
 		[3]
 	],
 	"topTenActiveUserSentScore": [
-		[93],
-		[33.5],
-		[39.5],
-		[32.4],
+		[92.9],
+		[29.7],
+		[40.3],
+		[30.9],
 		[100],
-		[25.1],
-		[16.2],
-		[21.6],
-		[24.6],
-		[51]
+		[21.8],
+		[15.1],
+		[20.8],
+		[22.5],
+		[49.5]
 	],
 	"topTenActiveUserPostRank": [
 		[1],
@@ -934,10 +934,10 @@
 		"NattNatt",
 		"ceph",
 		"kjellkritisk",
-		"Powerless1",
 		"SnakePlisssken",
-		"Generalknase",
-		"Silverax"
+		"Powerless1",
+		"Silverax",
+		"Generalknase"
 	],
 	"topTenImportantSentUserIDs": [
 		[617995],
@@ -946,10 +946,10 @@
 		[602311],
 		[71440],
 		[761588],
-		[287803],
 		[697363],
-		[741946],
-		[572282]
+		[287803],
+		[572282],
+		[741946]
 	],
 	"topTenImportantSentUserPostCount": [
 		[101],
@@ -958,10 +958,10 @@
 		[70],
 		[50],
 		[134],
-		[142],
 		[106],
-		[37],
-		[36]
+		[142],
+		[36],
+		[37]
 	],
 	"topTenImportantSentUserRank": [
 		[1],
@@ -977,15 +977,15 @@
 	],
 	"topTenImportantSentUserScore": [
 		[100],
-		[93],
-		[51],
-		[46.6],
-		[40.9],
-		[39.5],
-		[33.5],
-		[32.4],
+		[92.9],
+		[49.5],
+		[47.6],
+		[40.6],
+		[40.3],
+		[30.9],
+		[29.7],
 		[25.6],
-		[25.6]
+		[25]
 	],
 	"topTenImportantPostUserNames": [
 		"skunkjobb",

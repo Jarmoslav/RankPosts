@@ -2,13 +2,12 @@
 
 /**
  * @ngdoc function
- * @name berkantApp.controller:TempCtrl
+ * @name rankpostsFBapp.controller:TempCtrl
  * @description
  * # TempCtrl
- * Controller of the berkantApp
+ * Controller of the rankpostsFBapp
  */
-angular.module('berkantApp')
-  .controller('TempCtrl',['$scope', 'promiseBestPostTime', function ($scope, promiseBestPostTime) {
+angular.module('rankpostsFBapp')
+  .controller('PostInpCtrl',['$scope', 'promiseBestPostTime', function ($scope, promiseBestPostTime) {
     $scope.sumTemporals = promiseBestPostTime.data;
-
   }]);

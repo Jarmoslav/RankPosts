@@ -1,7 +1,7 @@
 (function(){
 'use strict';
 
-angular.module('berkantApp.directive', [])
+angular.module('rankpostsFBapp.directive', [])
  .directive( 'bnSlideShow', function() {
     // I allow an instance of the directive to be hooked
     // into the user-interaction model outside of the

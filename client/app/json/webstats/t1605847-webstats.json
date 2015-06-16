@@ -380,16 +380,16 @@
 		[128]
 	],
 	"topTenActiveUserSentRank": [
-		[2410],
-		[1955],
-		[1083],
-		[1787],
-		[2129],
-		[1926],
-		[897],
-		[1278],
-		[973],
-		[2337]
+		[2417],
+		[2013],
+		[1235],
+		[1868],
+		[2165],
+		[1987],
+		[1065],
+		[1411],
+		[1133],
+		[2355]
 	],
 	"topTenActiveUserSentScore": [
 		["-_Inf_"],
@@ -430,26 +430,26 @@
 	"topTenImportantSentUserNames": [
 		"zug",
 		"Harry_",
+		"collision",
 		"Michel Myers",
+		"eliizar",
 		"lallisen",
-		"Kaos",
-		"Draupnir",
-		"CAPCOM",
-		"funk111",
-		"s920",
-		"yandax"
+		"Krucifix",
+		"H.E.L.",
+		"exerd",
+		"Kaos"
 	],
 	"topTenImportantSentUserIDs": [
 		[2293],
 		[2707],
+		[8519],
 		[10175],
+		[56485],
 		[57960],
-		[60647],
-		[61872],
-		[61883],
-		[68234],
-		[68285],
-		[68338]
+		[58821],
+		[59764],
+		[60615],
+		[60647]
 	],
 	"topTenImportantSentUserPostCount": [
 		[1],
@@ -458,7 +458,7 @@
 		[1],
 		[1],
 		[1],
-		[4],
+		[1],
 		[1],
 		[1],
 		[1]

@@ -1,0 +1,25 @@
+<span ng-repeat="sumTemporal in sumTemporals" ng-init="sectionIndex = $index">
+  <ul class="timeline" ng-repeat="sumPost in sumTemporal track by $index">
+    <li class="timeline-inverted noMargin">
+      <div class="timeline-panel" ng-class="{odd : sectionIndex%2==0, last:$last}">
+        <div class="timeline-heading" ng-click="custom=!custom">
+          Mening #{{sumPost.rankGlobal}}: {{sumPost.scoreGlobal}}p
+          Skrivet av
+          <a href="{{s.postUserUrl}}" target="_blank">{{sumPost.postUserName}}</a>,
+          användare #{{sumPost.userRank}}:  {{sumPost.userScore}}p
+          <span class ="pull-right">{{s.postDateTime}}</span>
+          <br>
+          Local rank: {{sumPost.rankLocal}}. Lokal score: {{sumPost.scoreLocal}}p
+          <hr>
+        </div>
+        <!-- <div ng-hide="custom"  ng-click="custom=!custom" ng-bind-html="sumPost.sentence | ellipsis: 1000"></div> -->
+        <div ng-hide="custom"  ng-click="custom=!custom"><span ng-bind-html="sumPost.sentence"></span></div>
+        <div ng-click="custom=!custom" ng-show="custom"  class="timeline-body">
+          <span ng-bind-html="sumPost.sentence"></span>
+          <hr>
+          Källa: <a href="{{sumPost.postUrlInThread}}" target="_blank">{{sumPost.postUrlInThread}}</a>
+        </div>
+      </div>
+    </li>
+  </ul>
+</span>

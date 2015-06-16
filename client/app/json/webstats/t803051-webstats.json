@@ -1258,28 +1258,28 @@
 		[7]
 	],
 	"topTenActiveUserSentRank": [
-		[3],
+		[2],
 		[5],
-		[22],
+		[21],
 		[4],
-		[25],
-		[24],
+		[28],
+		[22],
 		[6],
-		[29],
-		[16],
-		[20]
+		[35],
+		[15],
+		[26]
 	],
 	"topTenActiveUserSentScore": [
-		[75.1],
-		[47.7],
-		[26.2],
-		[54.6],
-		[25.6],
-		[25.7],
-		[43.1],
-		[22.2],
-		[29.2],
-		[27.4]
+		[88.3],
+		[52.3],
+		[27.4],
+		[61.6],
+		[24.4],
+		[27.4],
+		[45.6],
+		[20.9],
+		[32.4],
+		[25.4]
 	],
 	"topTenActiveUserPostRank": [
 		[1],
@@ -1307,39 +1307,39 @@
 	],
 	"topTenImportantSentUserNames": [
 		"Lijajn",
-		"Schmojso",
 		"CitySoundtrack",
+		"Schmojso",
 		"kissflickan",
 		"term",
 		"SingleStar",
 		"Minimalt_Psykad",
-		"FantaBurk",
 		"ToddsTer",
-		"DonVonFjant"
+		"FantaBurk",
+		"revamp"
 	],
 	"topTenImportantSentUserIDs": [
 		[677145],
-		[360292],
 		[230269],
+		[360292],
 		[389722],
 		[189679],
 		[135823],
 		[175912],
-		[139929],
 		[396911],
-		[367702]
+		[139929],
+		[471930]
 	],
 	"topTenImportantSentUserPostCount": [
 		[7],
-		[5],
 		[25],
+		[5],
 		[12],
 		[13],
 		[8],
 		[2],
-		[5],
 		[2],
-		[5]
+		[5],
+		[6]
 	],
 	"topTenImportantSentUserRank": [
 		[1],
@@ -1355,15 +1355,15 @@
 	],
 	"topTenImportantSentUserScore": [
 		[100],
-		[75.6],
-		[75.1],
-		[54.6],
-		[47.7],
-		[43.1],
-		[39.7],
-		[38],
-		[36.1],
-		[35.1]
+		[88.3],
+		[86.6],
+		[61.6],
+		[52.3],
+		[45.6],
+		[44.3],
+		[40.5],
+		[39.8],
+		[38.4]
 	],
 	"topTenImportantPostUserNames": [
 		"CitySoundtrack",

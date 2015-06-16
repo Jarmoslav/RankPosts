@@ -1,7 +1,697 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f9fe07-2be4-434f-8e44-7239b56457eb" name="Default" comment="" />
+    <list default="true" id="12f9fe07-2be4-434f-8e44-7239b56457eb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.buildignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1048457-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1116535-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1275257-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t130697-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t133416-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1345419-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1423112-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1427614-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1452536-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1532220-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1532651-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1538501-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1605847-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1636711-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1679139-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1693393-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1713465-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1718010-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t172037-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1768191-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1792221-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1837147-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1842501-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1878926-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t1958696-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t2065199-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t2114904-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t2139074-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t2158037-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t2256004-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t226043-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t232286-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t2325003-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t2419260-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t270116-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t326889-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t350508-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t367082-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t392054-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t426684-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t539212-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t551733-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t571013-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t779211-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t781949-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t803051-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t819672-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t820956-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t947739-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t959924-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t967842-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-all/t972173-key-posts-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1048457-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1116535-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1254641-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1275257-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t130697-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t133416-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1345419-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1423112-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1427614-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1452536-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1532220-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1532651-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1538501-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1605847-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1636711-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1679139-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1693393-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1713465-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1718010-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t172037-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1768191-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1792221-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1837147-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1842501-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1878926-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t1958696-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t2065199-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t2114904-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t2139074-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t2158037-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t2256004-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t226043-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t232286-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t2325003-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t2419260-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t270116-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t326889-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t350508-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t367082-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t392054-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t426684-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t539212-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t551733-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t571013-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t779211-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t781949-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t803051-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t819672-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t820956-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t947739-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t959924-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t967842-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/posts-temporal/t972173-key-posts-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/processedThreads.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1048457-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1116535-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1254641-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1275257-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t130697-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t133416-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1345419-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1423112-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1427614-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1452536-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1532220-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1532651-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1538501-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1605847-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1636711-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1679139-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1693393-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1713465-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1718010-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t172037-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1768191-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1792221-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1837147-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1842501-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1878926-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t1958696-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t2065199-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t2114904-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t2139074-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t2158037-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t2256004-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t226043-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t232286-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t2325003-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t2419260-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t270116-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t326889-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t350508-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t367082-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t392054-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t426684-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t539212-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t551733-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t571013-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t779211-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t781949-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t803051-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t819672-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t820956-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t947739-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t959924-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t967842-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-all/t972173-key-sentences-all.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1048457-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1048457-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1116535-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1116535-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1254641-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1254641-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1275257-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1275257-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t130697-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t130697-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t133416-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t133416-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1345419-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1345419-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1423112-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1423112-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1427614-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1427614-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1452536-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1452536-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1532220-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1532220-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1532651-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1532651-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1538501-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1538501-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1605847-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1605847-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1636711-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1636711-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1679139-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1679139-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1693393-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1693393-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1713465-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1713465-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1718010-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1718010-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t172037-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t172037-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1768191-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1768191-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1792221-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1792221-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1837147-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1837147-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1842501-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1842501-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1878926-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1878926-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1958696-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t1958696-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2065199-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2065199-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2114904-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2114904-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2139074-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2139074-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2158037-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2158037-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2256004-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2256004-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t226043-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t226043-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t232286-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t232286-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2325003-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2325003-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2419260-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t2419260-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t270116-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t270116-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t326889-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t326889-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t350508-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t350508-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t367082-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t367082-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t392054-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t392054-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t426684-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t426684-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t539212-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t539212-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t551733-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t551733-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t571013-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t571013-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t779211-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t779211-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t781949-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t781949-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t803051-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t803051-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t819672-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t819672-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t820956-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t820956-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t947739-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t947739-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t959924-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t959924-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t967842-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t967842-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t972173-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/sentences-temporal/t972173-key-sentences-temporal.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1048457-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1116535-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1254641-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1275257-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t130697-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t133416-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1345419-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1423112-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1427614-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1452536-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1532220-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1532651-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1538501-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1605847-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1636711-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1679139-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1693393-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1713465-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1718010-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t172037-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1768191-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1792221-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1837147-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1842501-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1878926-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t1958696-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t2065199-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t2114904-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t2139074-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t2158037-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t2256004-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t226043-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t232286-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t2325003-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t2419260-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t270116-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t326889-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t350508-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t367082-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t392054-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t426684-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t539212-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t551733-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t571013-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t779211-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t781949-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t803051-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t819672-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t820956-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t947739-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t959924-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t967842-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/json/webstats/t972173-webstats.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/about" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/controllers/best.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/controllers/stats.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/controllers/temporal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/directives/graphDirectives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/bestPost.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/bestPostTime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/bestSentence.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/bestSentenceTime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/modalContent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1048457-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1116535-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1254641-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1275257-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t130697-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t133416-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1345419-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1423112-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1427614-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1452536-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1532220-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1532651-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1538501-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1605847-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1636711-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1679139-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1693393-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1713465-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1718010-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t172037-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1768191-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1792221-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1837147-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1842501-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1878926-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1958696-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2065199-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2114904-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2139074-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2158037-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2256004-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t226043-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t232286-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2325003-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2419260-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t270116-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t326889-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t350508-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t367082-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t392054-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t426684-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t539212-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t551733-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t571013-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t779211-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t781949-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t803051-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t819672-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t820956-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t947739-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t959924-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t967842-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t972173-division-info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/scripts/about" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/views/bestPost.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/views/bestPostTime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/views/bestSentence.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/views/bestSentenceTime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/views/modalContent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/views/stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/views/tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/views/test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/favicon.ico" afterPath="$PROJECT_DIR$/client/app/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/404.html" afterPath="$PROJECT_DIR$/client/app/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Gruntfile.js" afterPath="$PROJECT_DIR$/client/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/about.html" afterPath="$PROJECT_DIR$/client/app/views/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/scripts/app.js" afterPath="$PROJECT_DIR$/client/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/scripts/controllers/best.js" afterPath="$PROJECT_DIR$/client/app/scripts/controllers/best.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/scripts/directives/graphDirectives.js" afterPath="$PROJECT_DIR$/client/app/scripts/directives/graphDirectives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/index.html" afterPath="$PROJECT_DIR$/client/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/list.html" afterPath="$PROJECT_DIR$/client/app/views/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/main.html" afterPath="$PROJECT_DIR$/client/app/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/styles/main.scss" afterPath="$PROJECT_DIR$/client/app/styles/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/processedThreads.json" afterPath="$PROJECT_DIR$/client/app/json/processedThreads.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/robots.txt" afterPath="$PROJECT_DIR$/client/app/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/scripts/controllers/stats.js" afterPath="$PROJECT_DIR$/client/app/scripts/controllers/stats.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1048457-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1048457-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1048457-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1048457-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1048457-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1048457-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1048457-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1048457-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1048457-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1048457-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1116535-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1116535-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1116535-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1116535-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1116535-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1116535-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1116535-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1116535-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1116535-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1116535-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1254641-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1254641-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1254641-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1254641-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1254641-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1254641-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1254641-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1254641-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1275257-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1275257-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1275257-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1275257-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1275257-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1275257-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1275257-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1275257-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1275257-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1275257-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t130697-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t130697-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t130697-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t130697-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t130697-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t130697-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t130697-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t130697-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t130697-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t130697-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t133416-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t133416-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t133416-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t133416-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t133416-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t133416-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t133416-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t133416-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t133416-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t133416-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1345419-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1345419-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1345419-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1345419-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1345419-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1345419-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1345419-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1345419-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1345419-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1345419-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1423112-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1423112-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1423112-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1423112-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1423112-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1423112-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1423112-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1423112-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1423112-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1423112-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1427614-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1427614-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1427614-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1427614-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1427614-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1427614-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1427614-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1427614-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1427614-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1427614-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1452536-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1452536-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1452536-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1452536-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1452536-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1452536-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1452536-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1452536-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1452536-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1452536-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1532220-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1532220-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1532220-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1532220-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1532220-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1532220-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1532220-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1532220-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1532220-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1532220-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1532651-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1532651-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1532651-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1532651-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1532651-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1532651-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1532651-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1532651-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1532651-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1532651-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1538501-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1538501-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1538501-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1538501-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1538501-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1538501-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1538501-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1538501-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1538501-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1538501-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1605847-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1605847-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1605847-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1605847-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1605847-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1605847-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1605847-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1605847-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1605847-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1605847-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1636711-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1636711-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1636711-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1636711-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1636711-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1636711-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1636711-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1636711-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1636711-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1636711-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1679139-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1679139-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1679139-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1679139-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1679139-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1679139-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1679139-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1679139-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1679139-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1679139-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1693393-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1693393-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1693393-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1693393-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1693393-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1693393-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1693393-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1693393-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1693393-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1693393-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1713465-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1713465-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1713465-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1713465-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1713465-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1713465-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1713465-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1713465-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1713465-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1713465-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1718010-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1718010-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1718010-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1718010-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1718010-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1718010-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1718010-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1718010-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1718010-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1718010-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t172037-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t172037-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t172037-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t172037-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t172037-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t172037-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t172037-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t172037-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t172037-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t172037-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1768191-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1768191-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1768191-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1768191-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1768191-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1768191-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1768191-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1768191-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1768191-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1768191-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1792221-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1792221-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1792221-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1792221-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1792221-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1792221-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1792221-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1792221-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1792221-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1792221-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1837147-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1837147-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1837147-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1837147-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1837147-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1837147-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1837147-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1837147-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1837147-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1837147-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1842501-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1842501-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1842501-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1842501-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1842501-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1842501-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1842501-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1842501-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1842501-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1842501-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1878926-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1878926-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1878926-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1878926-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1878926-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1878926-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1878926-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1878926-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1878926-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1878926-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t1958696-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t1958696-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t1958696-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t1958696-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t1958696-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t1958696-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1958696-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t1958696-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t1958696-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t1958696-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t2065199-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t2065199-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t2065199-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t2065199-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t2065199-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t2065199-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2065199-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2065199-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t2065199-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t2065199-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t2114904-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t2114904-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t2114904-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t2114904-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t2114904-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t2114904-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2114904-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2114904-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t2114904-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t2114904-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t2139074-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t2139074-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t2139074-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t2139074-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t2139074-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t2139074-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2139074-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2139074-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t2139074-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t2139074-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t2158037-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t2158037-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t2158037-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t2158037-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t2158037-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t2158037-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2158037-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2158037-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t2158037-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t2158037-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t2256004-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t2256004-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t2256004-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t2256004-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t2256004-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t2256004-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2256004-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2256004-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t2256004-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t2256004-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t226043-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t226043-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t226043-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t226043-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t226043-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t226043-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t226043-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t226043-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t226043-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t226043-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t232286-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t232286-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t232286-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t232286-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t232286-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t232286-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t232286-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t232286-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t232286-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t232286-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t2325003-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t2325003-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t2325003-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t2325003-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t2325003-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t2325003-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2325003-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2325003-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t2325003-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t2325003-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t2419260-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t2419260-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t2419260-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t2419260-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t2419260-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t2419260-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2419260-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t2419260-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t2419260-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t2419260-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t270116-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t270116-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t270116-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t270116-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t270116-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t270116-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t270116-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t270116-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t270116-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t270116-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t326889-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t326889-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t326889-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t326889-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t326889-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t326889-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t326889-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t326889-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t326889-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t326889-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t350508-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t350508-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t350508-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t350508-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t350508-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t350508-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t350508-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t350508-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t350508-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t350508-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t367082-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t367082-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t367082-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t367082-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t367082-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t367082-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t367082-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t367082-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t367082-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t367082-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t392054-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t392054-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t392054-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t392054-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t392054-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t392054-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t392054-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t392054-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t392054-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t392054-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t426684-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t426684-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t426684-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t426684-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t426684-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t426684-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t426684-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t426684-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t426684-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t426684-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t539212-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t539212-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t539212-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t539212-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t539212-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t539212-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t539212-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t539212-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t539212-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t539212-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t551733-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t551733-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t551733-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t551733-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t551733-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t551733-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t551733-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t551733-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t551733-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t551733-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t571013-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t571013-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t571013-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t571013-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t571013-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t571013-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t571013-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t571013-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t571013-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t571013-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t779211-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t779211-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t779211-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t779211-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t779211-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t779211-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t779211-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t779211-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t779211-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t779211-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t781949-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t781949-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t781949-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t781949-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t781949-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t781949-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t781949-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t781949-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t781949-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t781949-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t803051-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t803051-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t803051-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t803051-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t803051-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t803051-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t803051-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t803051-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t803051-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t803051-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t819672-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t819672-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t819672-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t819672-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t819672-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t819672-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t819672-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t819672-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t819672-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t819672-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t820956-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t820956-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t820956-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t820956-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t820956-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t820956-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t820956-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t820956-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t820956-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t820956-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t947739-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t947739-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t947739-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t947739-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t947739-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t947739-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t947739-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t947739-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t947739-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t947739-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t959924-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t959924-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t959924-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t959924-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t959924-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t959924-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t959924-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t959924-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t959924-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t959924-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t967842-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t967842-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t967842-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t967842-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t967842-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t967842-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t967842-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t967842-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t967842-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t967842-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-all/t972173-key-posts-all.json" afterPath="$PROJECT_DIR$/client/app/json/posts-all/t972173-key-posts-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/posts-temporal/t972173-key-posts-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/posts-temporal/t972173-key-posts-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-all/t972173-key-sentences-all.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-all/t972173-key-sentences-all.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/sentences-temporal/t972173-key-sentences-temporal.json" afterPath="$PROJECT_DIR$/client/app/json/sentences-temporal/t972173-key-sentences-temporal.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/json/webstats/t972173-webstats.json" afterPath="$PROJECT_DIR$/client/app/json/webstats/t972173-webstats.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/scripts/controllers/temporal.js" afterPath="$PROJECT_DIR$/client/app/scripts/controllers/temporal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="berkant.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,10 +712,46 @@
     <favorites_list name="berkant" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/app/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4076087">
+              <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -37,6 +763,10 @@
       <list>
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/client/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/server/app.js" />
+        <option value="$PROJECT_DIR$/server/package.json" />
+        <option value="$PROJECT_DIR$/client/app/scripts/app.js" />
       </list>
     </option>
   </component>
@@ -50,8 +780,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="720" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="720" />
     <option name="height" value="833" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -86,6 +817,70 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="berkant" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="berkant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="berkant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="berkant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="berkant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="berkant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="berkant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="berkant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="berkant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -354,16 +1149,16 @@
       <created>1434438934581</created>
       <option name="number" value="Default" />
       <updated>1434438934581</updated>
-      <workItem from="1434438936541" duration="1684000" />
+      <workItem from="1434438936541" duration="3409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1684000" />
+    <option name="totallyTimeSpent" value="3409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="833" extended-state="0" />
-    <editor active="false" />
+    <frame x="720" y="23" width="720" height="833" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -381,7 +1176,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14930555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2986111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -403,37 +1198,50 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44836956">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npm-debug.log">
+    <entry file="file://$PROJECT_DIR$/client/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2693935">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/server/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32608697">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1264045">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-berkant">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-berkant</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-berkant</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="68.0" y="14.5" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4076087">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
           <folding />
         </state>
       </provider>

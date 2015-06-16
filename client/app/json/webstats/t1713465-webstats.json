@@ -356,24 +356,24 @@
 		[4],
 		[1],
 		[3],
-		[6],
-		[16],
-		[200],
-		[10],
+		[5],
+		[13],
+		[307],
+		[14],
 		[8],
-		[13]
+		[11]
 	],
 	"topTenActiveUserSentScore": [
-		[98.5],
-		[55.3],
+		[94],
+		[57.8],
 		[100],
-		[66.9],
-		[45.1],
-		[24.2],
-		[7.4],
-		[30.1],
-		[40.9],
-		[25]
+		[62.6],
+		[51.9],
+		[24.5],
+		[5.6],
+		[24.4],
+		[41.9],
+		[25.7]
 	],
 	"topTenActiveUserPostRank": [
 		[1],
@@ -404,36 +404,36 @@
 		"flygandeflax",
 		"Triremer",
 		"OneUp",
-		"wazzobazzo",
 		"Peter_18",
 		"Nummerlappen",
+		"wazzobazzo",
 		"Uncle Duke",
 		"McCarthy01",
-		"ZachariasTopelius"
+		"Kultisten"
 	],
 	"topTenImportantSentUserIDs": [
 		[404398],
 		[244998],
 		[637216],
 		[110782],
-		[368511],
 		[99096],
 		[703606],
+		[368511],
 		[231700],
 		[356287],
-		[820703]
+		[655277]
 	],
 	"topTenImportantSentUserPostCount": [
 		[107],
 		[125],
 		[99],
 		[119],
-		[31],
 		[88],
 		[25],
+		[31],
 		[43],
 		[37],
-		[50]
+		[19]
 	],
 	"topTenImportantSentUserRank": [
 		[1],
@@ -449,15 +449,15 @@
 	],
 	"topTenImportantSentUserScore": [
 		[100],
-		[98.5],
-		[66.9],
-		[55.3],
-		[48.3],
-		[45.1],
-		[45],
-		[40.9],
-		[32.4],
-		[30.1]
+		[94],
+		[62.6],
+		[57.8],
+		[51.9],
+		[48.8],
+		[45.9],
+		[41.9],
+		[34.6],
+		[26.2]
 	],
 	"topTenImportantPostUserNames": [
 		"flygandeflax",

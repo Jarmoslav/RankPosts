@@ -536,28 +536,28 @@
 		[47]
 	],
 	"topTenActiveUserSentRank": [
-		[3],
 		[2],
+		[3],
 		[5],
-		[6],
-		[18],
+		[7],
+		[22],
 		[1],
 		[8],
-		[17],
+		[19],
 		[11],
-		[39]
+		[59]
 	],
 	"topTenActiveUserSentScore": [
-		[87.9],
-		[89.4],
-		[68.7],
-		[61.6],
-		[32.1],
+		[91.3],
+		[83.1],
+		[64.8],
+		[61.3],
+		[29],
 		[100],
-		[53.4],
-		[33.2],
-		[43.2],
-		[21]
+		[56.2],
+		[31.4],
+		[41.5],
+		[15.8]
 	],
 	"topTenActiveUserPostRank": [
 		[2],
@@ -585,27 +585,27 @@
 	],
 	"topTenImportantSentUserNames": [
 		"UnderwearMan",
-		"Sapphirus",
 		"henkemacho",
+		"Sapphirus",
 		"Simsonite",
 		"Falafeln",
-		"muffinsplanned",
 		"TheShrew",
+		"muffinsplanned",
 		"Erkalinen",
-		"Nalle-Puh",
-		"QQM04R"
+		"QQM04R",
+		"Nalle-Puh"
 	],
 	"topTenImportantSentUserIDs": [
 		[215030],
-		[689960],
 		[561448],
+		[689960],
 		[469835],
 		[916581],
-		[508998],
 		[388477],
+		[508998],
 		[230034],
-		[596523],
-		[711596]
+		[711596],
+		[596523]
 	],
 	"topTenImportantSentUserPostCount": [
 		[63],
@@ -613,11 +613,11 @@
 		[117],
 		[44],
 		[98],
-		[81],
 		[44],
+		[81],
 		[60],
-		[36],
-		[40]
+		[40],
+		[36]
 	],
 	"topTenImportantSentUserRank": [
 		[1],
@@ -633,15 +633,15 @@
 	],
 	"topTenImportantSentUserScore": [
 		[100],
-		[89.4],
-		[87.9],
-		[70.2],
-		[68.7],
-		[61.6],
-		[59.7],
-		[53.4],
-		[49.6],
-		[49.5]
+		[91.3],
+		[83.1],
+		[72.1],
+		[64.8],
+		[62.2],
+		[61.3],
+		[56.2],
+		[51.2],
+		[49.2]
 	],
 	"topTenImportantPostUserNames": [
 		"Sapphirus",

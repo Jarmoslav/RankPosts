@@ -748,16 +748,16 @@
 		[10]
 	],
 	"topTenActiveUserSentRank": [
-		[44],
-		[34],
-		[165],
-		[85],
-		[100],
-		[197],
-		[96],
-		[131],
-		[140],
-		[118]
+		[67],
+		[58],
+		[173],
+		[104],
+		[118],
+		[199],
+		[114],
+		[145],
+		[153],
+		[134]
 	],
 	"topTenActiveUserSentScore": [
 		["-_Inf_"],
@@ -797,27 +797,27 @@
 	],
 	"topTenImportantSentUserNames": [
 		"texas",
+		"Kharma",
 		"Luxus",
+		"Maizer",
 		"MunchenCalling",
+		"Robbban87",
 		"fiskmås",
-		"frewan",
-		"orkarN",
-		"Semester",
-		"Abulcasis",
-		"panchod",
-		"GustavL"
+		"Svampfest",
+		"mtwo",
+		"frewan"
 	],
 	"topTenImportantSentUserIDs": [
 		[3911],
+		[5005],
 		[75218],
+		[80123],
 		[88360],
+		[102178],
 		[108208],
-		[114710],
-		[122113],
-		[126094],
-		[190501],
-		[250257],
-		[268122]
+		[110075],
+		[114690],
+		[114710]
 	],
 	"topTenImportantSentUserPostCount": [
 		[1],

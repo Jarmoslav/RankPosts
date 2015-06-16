@@ -1,0 +1,9 @@
+<p><small class="text-muted">
+  Inlägg #{{sumPost.rankGlobal}}: {{sumPost.scoreGlobal}}p
+  <span class ="pull-right">{{sumPost.postDateTime}}</span>
+  <br>
+  Skrivet av <a href="{{sumPost.postUserUrl}}" target="_blank">
+  {{sumPost.postUserName}}</a>, användare #{{sumPost.userRank}}:  {{sumPost.userScore}}p
+  </small>
+  <hr>
+  </p>

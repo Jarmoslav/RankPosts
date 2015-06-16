@@ -1,0 +1,162 @@
+[
+	{
+		"thisPeriod": 1,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2011-11-13, 19:04",
+		"timeLastPostInPeriod": "2011-11-14, 02:07",
+		"firstPostNumberInPeriod": 1,
+		"lastPostNumberInPeriod": 321
+	},
+	{
+		"thisPeriod": 2,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2011-11-14, 02:19",
+		"timeLastPostInPeriod": "2011-11-14, 20:35",
+		"firstPostNumberInPeriod": 322,
+		"lastPostNumberInPeriod": 641
+	},
+	{
+		"thisPeriod": 3,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2011-11-14, 20:35",
+		"timeLastPostInPeriod": "2011-11-16, 01:28",
+		"firstPostNumberInPeriod": 642,
+		"lastPostNumberInPeriod": 962
+	},
+	{
+		"thisPeriod": 4,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2011-11-16, 01:33",
+		"timeLastPostInPeriod": "2011-11-21, 11:24",
+		"firstPostNumberInPeriod": 963,
+		"lastPostNumberInPeriod": 1282
+	},
+	{
+		"thisPeriod": 5,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2011-11-21, 11:25",
+		"timeLastPostInPeriod": "2011-11-29, 04:20",
+		"firstPostNumberInPeriod": 1283,
+		"lastPostNumberInPeriod": 1602
+	},
+	{
+		"thisPeriod": 6,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2011-11-29, 05:01",
+		"timeLastPostInPeriod": "2011-12-31, 17:21",
+		"firstPostNumberInPeriod": 1603,
+		"lastPostNumberInPeriod": 1923
+	},
+	{
+		"thisPeriod": 7,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2011-12-31, 18:25",
+		"timeLastPostInPeriod": "2012-02-20, 19:18",
+		"firstPostNumberInPeriod": 1924,
+		"lastPostNumberInPeriod": 2243
+	},
+	{
+		"thisPeriod": 8,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2012-02-21, 01:03",
+		"timeLastPostInPeriod": "2012-05-12, 00:03",
+		"firstPostNumberInPeriod": 2244,
+		"lastPostNumberInPeriod": 2563
+	},
+	{
+		"thisPeriod": 9,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2012-05-12, 16:24",
+		"timeLastPostInPeriod": "2012-07-10, 11:20",
+		"firstPostNumberInPeriod": 2564,
+		"lastPostNumberInPeriod": 2884
+	},
+	{
+		"thisPeriod": 10,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2012-07-10, 12:17",
+		"timeLastPostInPeriod": "2012-09-30, 16:29",
+		"firstPostNumberInPeriod": 2885,
+		"lastPostNumberInPeriod": 3204
+	},
+	{
+		"thisPeriod": 11,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2012-09-30, 16:34",
+		"timeLastPostInPeriod": "2013-01-07, 22:59",
+		"firstPostNumberInPeriod": 3205,
+		"lastPostNumberInPeriod": 3524
+	},
+	{
+		"thisPeriod": 12,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2013-01-08, 00:20",
+		"timeLastPostInPeriod": "2013-03-27, 01:18",
+		"firstPostNumberInPeriod": 3526,
+		"lastPostNumberInPeriod": 3845
+	},
+	{
+		"thisPeriod": 13,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2013-03-27, 01:26",
+		"timeLastPostInPeriod": "2013-05-21, 03:06",
+		"firstPostNumberInPeriod": 3846,
+		"lastPostNumberInPeriod": 4165
+	},
+	{
+		"thisPeriod": 14,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2013-05-21, 10:49",
+		"timeLastPostInPeriod": "2013-07-19, 00:16",
+		"firstPostNumberInPeriod": 4166,
+		"lastPostNumberInPeriod": 4485
+	},
+	{
+		"thisPeriod": 15,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2013-07-19, 01:12",
+		"timeLastPostInPeriod": "2013-08-26, 17:34",
+		"firstPostNumberInPeriod": 4486,
+		"lastPostNumberInPeriod": 4806
+	},
+	{
+		"thisPeriod": 16,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2013-08-26, 19:34",
+		"timeLastPostInPeriod": "2013-10-17, 23:52",
+		"firstPostNumberInPeriod": 4807,
+		"lastPostNumberInPeriod": 5125
+	},
+	{
+		"thisPeriod": 17,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2013-10-19, 21:35",
+		"timeLastPostInPeriod": "2014-01-07, 06:04",
+		"firstPostNumberInPeriod": 5127,
+		"lastPostNumberInPeriod": 5446
+	},
+	{
+		"thisPeriod": 18,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2014-01-07, 06:51",
+		"timeLastPostInPeriod": "2014-03-15, 17:58",
+		"firstPostNumberInPeriod": 5447,
+		"lastPostNumberInPeriod": 5767
+	},
+	{
+		"thisPeriod": 19,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2014-03-15, 18:01",
+		"timeLastPostInPeriod": "2014-05-15, 14:51",
+		"firstPostNumberInPeriod": 5768,
+		"lastPostNumberInPeriod": 6087
+	},
+	{
+		"thisPeriod": 20,
+		"totalPeriods": 20,
+		"timeFirstPostInPeriod": "2014-05-15, 18:34",
+		"timeLastPostInPeriod": "2014-08-07, 14:09",
+		"firstPostNumberInPeriod": 6088,
+		"lastPostNumberInPeriod": 6408
+	}
+]

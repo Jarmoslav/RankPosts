@@ -1,0 +1,31 @@
+
+<ul class="timeline" ng-repeat="sumPost in sumPostsAll">
+  <li class="timeline-inverted">
+
+    <!-- <div class="timeline-badge"><i class="glyphicon glyphicon-user"></i>{{$index + 1}}</div> -->
+    <div class="timeline-panel">
+      <div class="timeline-heading shadowEndOfSentence" ng-click="custom=!custom">
+        <p>
+          <!-- <button > </button> -->
+            Inlägg #{{sumPost.rankGlobal}}: {{sumPost.scoreGlobal}}p
+
+          Skrivet av <a href="{{sumPost.postUserUrl}}" target="_blank">
+          {{sumPost.postUserName}}</a>, användare #{{sumPost.userRank}}:  {{sumPost.userScore}}p
+          <span class ="pull-right">{{sumPost.postDateTime}}</span>
+          </p>
+          <hr>
+      </div>
+      <div ng-hide="custom"  ng-click="custom=!custom"><div ng-bind-html="sumPost.sentence | ellipsis: 1000"  ></div></div>
+      <div ng-click="custom=!custom" ng-show="custom"  class="timeline-body " >
+
+        <span ng-bind-html="sumPost.sentence"></span>
+        <hr>
+        <!-- <i class="glyphicon glyphicon-time"></i> -->
+        Källa: <a href="{{sumPost.postUrlInThread}}" target="_blank">{{sumPost.postUrlInThread}}</a>
+        <!--
+        <a href="{{sumPost.postUrlUniq}}" target="_blank">{{sumPost.postUrlUniq}}</a>-->
+
+      </div>
+    </div>
+  </li>
+</ul>

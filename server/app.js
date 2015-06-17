@@ -5,8 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
+
 
 var app = express();
 
@@ -26,9 +25,8 @@ if (app.get('env') === 'development') {
   // This covers serving up the index page
   app.use(express.static(path.join(__dirname, '../client/.tmp')));
   app.use(express.static(path.join(__dirname, '../client/app')));
-
   // Error Handling
-  app.use(function(err, req, res, next) {
+  app.use(function (err, req, res, next) {
     res.status(err.status || 500);
     res.render('error', {
       message: err.message,
@@ -41,10 +39,8 @@ if (app.get('env') === 'development') {
  * Production Settings
  */
 if (app.get('env') === 'production') {
-
   // changes it to use the optimized version for production
   app.use(express.static(path.join(__dirname, '/dist')));
-
   // production error handler
   // no stacktraces leaked to user
   app.use(function(err, req, res, next) {
@@ -55,6 +51,14 @@ if (app.get('env') === 'production') {
     });
   });
 }
+/**
+ * Routes
+ */
+var router = require('./router')(app);
+// Error Handling
+app.use(function(err, req, res, next) {
+  res.status(err.status || 500);
+});
 
 
 module.exports = app;

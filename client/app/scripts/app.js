@@ -25,7 +25,7 @@ angular
 
   $stateProvider
   .state('start', {
-    url: '', //remove the ones, easy fix
+    url: '/', //remove the ones, easy fix
     templateUrl: 'views/start.html'
   })
   .state('flashback', {
@@ -34,6 +34,10 @@ angular
     resolve:{
       promiseObj:  ['$http',function($http){
         return $http.get('json/processedThreads.json').then(function(data){
+          $http.get('threads').then(function(data){
+            console.log('data');
+            console.log(data);
+          });
           return data;
         });
       }]
@@ -61,14 +65,14 @@ angular
         });
       }]
     },
-    controller: 'TabsCtrl',
-  })
+    controller: 'TabsCtrl'
+    })
 
   .state('thread.posts', {
     url: '/post',
     templateUrl: 'views/postview.html',
     resolve:{
-      promiseBestTextObject:  ['$http', '$stateParams', '$rootScope',function($http, $stateParams, $rootScope){
+      promiseBestTextObject:  ['$http', '$stateParams', '$rootScope',function($http, $stateParams){
             console.log($stateParams.threadID);
         return $http.get('json/posts-all/'+$stateParams.threadID+'-key-posts-all.json').then(function(data){
 
@@ -76,9 +80,8 @@ angular
         });
       }]
     },
-    controller: 'PostCtrl',
+    controller: 'PostCtrl'
   })
-
   .state('thread.sentences', {
     url: '/sent',
     templateUrl: 'views/sentview.html',
@@ -89,7 +92,7 @@ angular
         });
       }]
     },
-    controller: 'PostCtrl',
+    controller: 'PostCtrl'
   })
   .state('thread.stats', {
     url: '/stats',
@@ -101,7 +104,7 @@ angular
         });
       }]
     },
-    controller: 'StatsCtrl',
+    controller: 'StatsCtrl'
   });
 
 }).run(['$rootScope', '$location', '$window', function($rootScope, $location, $window){
@@ -113,4 +116,4 @@ angular
 
 		      $window.ga('send', 'pageview', { page: $location.path() });
 		  });
-  }]);;
+  }]);

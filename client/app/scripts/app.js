@@ -16,7 +16,10 @@ angular
   'ui.router',
   'ui.bootstrap',
   'nvd3ChartDirectives',
-  'rankpostsFBapp.directive'
+  'rankpostsFBapp.directive',
+    'angucomplete-alt'
+
+
 ])
 
 .config(function($stateProvider, $urlRouterProvider) {
@@ -33,19 +36,16 @@ angular
     templateUrl: 'views/list.html',
     resolve:{
       promiseObj:  ['$http',function($http){
-        return $http.get('json/processedThreads.json').then(function(data){
-          $http.get('threads').then(function(data){
-            console.log('data');
-            console.log(data);
-          });
-          return data;
+        return $http.get('threads').then(function(object){
+          console.log(object.data);
+          return object.data;
         });
       }]
     },
     controller: ['$scope', 'promiseObj' ,function($scope, promiseObj){
       $scope.orderByField = 'threadTitle';
       $scope.reverseSort = false;
-      $scope.fileNames = promiseObj.data;
+      $scope.threads = promiseObj;
     }]
   })
   .state('about', {
@@ -67,7 +67,6 @@ angular
     },
     controller: 'TabsCtrl'
     })
-
   .state('thread.posts', {
     url: '/post',
     templateUrl: 'views/postview.html',
@@ -106,7 +105,6 @@ angular
     },
     controller: 'StatsCtrl'
   });
-
 }).run(['$rootScope', '$location', '$window', function($rootScope, $location, $window){
   $rootScope
           .$on('$stateChangeSuccess',

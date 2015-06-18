@@ -1,10 +1,21 @@
+<div>
+  <angucomplete-alt id="threadTitle"
+                  placeholder="Sök på flashback"
+                  pause="400"
+                  selected-object="selectedThread"
+                  remote-url="/threads/search/?searchQuery="
+                  search-fields="threadTitle"
+                  title-field="threadTitle"
+                  minlength="2"
+                  input-class="form-control form-control-small"/>
+</div>
 <section>
   <table class="table table-bordered">
     <thead>
       <tr>
         <th>
           <a class ="listTitle"  ng-click="orderByField='threadTitle'; reverseSort = !reverseSort">
-          Flashback Forum Tråd   <span ng-show="orderByField == 'threadTitle'">
+          Flashback Forum Tråd   </span ng-show="orderByField == 'threadTitle'">
             <!-- <span ng-show="!reverseSort">^</span><span ng-show="reverseSort">v</span></span> -->
           </a>
         </th>
@@ -16,17 +27,17 @@
         </th>
         <th>
           <a  class ="listTitle" ng-click="orderByField='numberOfUsers'; reverseSort = !reverseSort">
-            # Användare <span ng-show="orderByField == 'numberOfUsers'">
+            # Användare </span ng-show="orderByField == 'numberOfUsers'">
               <!-- <span ng-show="!reverseSort">^</span><span ng-show="reverseSort">v</span></span> -->
           </a>
         </th>
       </tr>
     </thead>
     <tbody>
-      <tr ng-repeat="fileName in fileNames|orderBy:orderByField:reverseSort"  ng-class="{odd: $odd}">
-        <td ><a class ="listTitle" ui-sref="thread({threadID: fileName.threadID})">{{fileName.threadTitle}}</a></td>
-        <td align="right">{{fileName.numberOfPosts}}</td>
-        <td align="right">{{fileName.numberOfUsers}}</td>
+      <tr ng-repeat="thread in threads|orderBy:orderByField:reverseSort"  ng-class="{odd: $odd}">
+        <td ><a class ="listTitle" ui-sref="thread({threadID: thread.threadID})">{{thread.threadTitle}}</a></td>
+        <td align="right">{{thread.numberOfPosts}}</td>
+        <td align="right">{{thread.numberOfUsers}}</td>
       </tr>
     </tbody>
   </table>

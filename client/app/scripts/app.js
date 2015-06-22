@@ -33,20 +33,30 @@ angular
   })
   .state('flashback', {
     url:'flashback',
-    templateUrl: 'views/list.html',
-    resolve:{
-      promiseObj:  ['$http',function($http){
-        return $http.get('threads').then(function(object){
-          console.log(object.data);
-          return object.data;
-        });
-      }]
-    },
-    controller: ['$scope', 'promiseObj' ,function($scope, promiseObj){
-      $scope.orderByField = 'threadTitle';
-      $scope.reverseSort = false;
-      $scope.threads = promiseObj;
-    }]
+      views: {
+        'searchThreads': {
+          templateUrl: 'views/threadSearch.html',
+          controller: ['$scope',function($scope){
+
+          }]
+        },
+        'list': {
+          templateUrl: 'views/list.html',
+          resolve:{
+            promiseObj:  ['$http',function($http){
+              return $http.get('threads').then(function(object){
+                console.log(object.data);
+                return object.data;
+              });
+            }]
+          },
+          controller: ['$scope', 'promiseObj' ,function($scope, promiseObj){
+            $scope.orderByField = 'threadTitle';
+            $scope.reverseSort = false;
+            $scope.threads = promiseObj;
+          }]
+        }
+      }
   })
   .state('about', {
     url: '/about/', //remove the ones, easy fix

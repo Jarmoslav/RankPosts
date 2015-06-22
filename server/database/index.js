@@ -6,7 +6,7 @@ var ThreadModel = require('./schemas/threads');
 
 // Connections
 var developmentDb = 'mongodb://localhost/test';
-var productionDb = 'urlToYourProductionMongoDb';
+var productionDb = 'mongodb://admin:mlomlomlo123@ds045252.mongolab.com:45252/rankposts';
 var usedDb;
 
 // If we're in development...

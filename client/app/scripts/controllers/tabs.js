@@ -8,9 +8,10 @@
 * Controller of the rankpostsFBapp
 */
 angular.module('rankpostsFBapp')
-.controller('TabsCtrl', ['$scope', '$state', 'promiseStats', function ($scope,  $state ,promiseStats) {
+.controller('TabsCtrl', ['$scope', '$state', 'promiseTabs', function ($scope,  $state ,promiseTabs) {
 
-  $scope.threadTitle = promiseStats.data.threadTitle;
+
+  $scope.threadTitle = promiseTabs.data[0].threadID;
 
   $scope.tabs = [
    {heading: 'Inlägg', route:'thread.posts', active:true},
@@ -28,15 +29,11 @@ angular.module('rankpostsFBapp')
   };
 
   $scope.$on('$stateChangeSuccess', function() {
-    console.log($state);
     $scope.tabs.forEach(function(tab) {
       tab.active = $scope.active(tab.route);
     });
   });
 
-  $scope.$on('$stateChangeStart', function() {
-    console.log("start");
-  });
 
 
 }]);

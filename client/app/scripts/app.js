@@ -28,24 +28,25 @@ angular
 
   $stateProvider
   .state('start', {
-    url: '/', //remove the ones, easy fix
+    url: '', //remove the ones, easy fix
     templateUrl: 'views/start.html'
   })
   .state('flashback', {
-    url:'flashback',
+    url:'/flashback',
       views: {
         'searchThreads': {
           templateUrl: 'views/threadSearch.html',
-          controller: ['$scope',function($scope){
-
-          }]
+          controller: ['$scope', '$state', function($scope, $state){
+            $scope.threadSelected = function (thread) {
+              $state.go('thread', {threadID: thread.description.threadID});
+            };
+          }],
         },
         'list': {
           templateUrl: 'views/list.html',
           resolve:{
             promiseObj:  ['$http',function($http){
               return $http.get('threads').then(function(object){
-                console.log(object.data);
                 return object.data;
               });
             }]
@@ -61,60 +62,61 @@ angular
   .state('about', {
     url: '/about/', //remove the ones, easy fix
     templateUrl: 'views/about.html',
-    controller: function($scope){
+    controller: ['$scope', function($scope){
       $scope.title = 'about';
-    }
+    }]
   })
-  .state('thread', {
-    url: '/flashback/:threadID',
-    templateUrl: 'views/main.html',
-    resolve:{
-      promiseStats:  ['$http', '$stateParams',function($http, $stateParams){
-        return $http.get('json/webstats/'+$stateParams.threadID+'-webstats.json').then(function(data){
-          return data;
-        });
-      }]
-    },
-    controller: 'TabsCtrl'
+    .state('thread', {
+      url: '/flashback/:threadID',
+      templateUrl: 'views/main.html',
+      resolve:{
+        promiseTabs:  ['$http', '$stateParams',function($http, $stateParams){
+          return $http.get('threads/posts?threadID='+$stateParams.threadID).then(function(data){
+            return data;
+          });
+        }]
+      },
+      controller: 'TabsCtrl',
     })
-  .state('thread.posts', {
-    url: '/post',
-    templateUrl: 'views/postview.html',
-    resolve:{
-      promiseBestTextObject:  ['$http', '$stateParams', '$rootScope',function($http, $stateParams){
-            console.log($stateParams.threadID);
-        return $http.get('json/posts-all/'+$stateParams.threadID+'-key-posts-all.json').then(function(data){
+    .state('thread.posts', {
+      url: '/post',
+      templateUrl: 'views/postview.html',
+      resolve:{
+        promiseBestTextObject:  ['$http', '$stateParams',function($http, $stateParams){
+          return $http.get('threads/posts?threadID='+$stateParams.threadID).then(function(data){
+            return data;
+          });
+        }]
+      },
+      controller: 'PostCtrl',
+    })
+    .state('thread.sentences', {
+      url: '/sent',
+      templateUrl: 'views/sentview.html',
+      resolve:{
+        promiseBestTextObject:  ['$http', '$stateParams',function($http, $stateParams){
+          return $http.get('threads/sentences?threadID='+$stateParams.threadID).then(function(data){
+            return data;
+          });
+        }]
+      },
+      controller: 'PostCtrl',
+    })
+    .state('thread.stats', {
+      url: '/stats',
+      templateUrl: 'views/statsview.html',
+      resolve:{
+        promiseStats:  ['$http', '$stateParams',function($http, $stateParams){
+          return $http.get('threads/stats?threadID='+$stateParams.threadID).then(function(statistics){
+            return statistics;
+          });
+        }]
+      },
+      controller: 'StatsCtrl',
+    });
 
-          return data;
-        });
-      }]
-    },
-    controller: 'PostCtrl'
-  })
-  .state('thread.sentences', {
-    url: '/sent',
-    templateUrl: 'views/sentview.html',
-    resolve:{
-      promiseBestTextObject:  ['$http', '$stateParams',function($http, $stateParams){
-        return $http.get('json/sentences-all/'+$stateParams.threadID+'-key-sentences-all.json').then(function(data){
-          return data;
-        });
-      }]
-    },
-    controller: 'PostCtrl'
-  })
-  .state('thread.stats', {
-    url: '/stats',
-    templateUrl: 'views/statsview.html',
-    resolve:{
-      promiseStats:  ['$http', '$stateParams',function($http, $stateParams){
-        return $http.get('json/webstats/'+$stateParams.threadID+'-webstats.json').then(function(data){
-          return data;
-        });
-      }]
-    },
-    controller: 'StatsCtrl'
-  });
+
+
 }).run(['$rootScope', '$location', '$window', function($rootScope, $location, $window){
   $rootScope
           .$on('$stateChangeSuccess',

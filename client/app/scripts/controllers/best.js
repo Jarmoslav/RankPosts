@@ -13,11 +13,6 @@ angular.module('rankpostsFBapp')
 
   $scope.sumPostsAll = promiseBestTextObject.data;
 
-  $scope.$on('data-resolved', function(event, args ){
-      console.log('data-resolved');
-      console.log(args);
-  });
-
   $scope.scrollTo = function(id) {
     $location.hash(id);
     $anchorScroll();

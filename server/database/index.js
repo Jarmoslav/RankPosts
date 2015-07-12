@@ -3,6 +3,9 @@
  */
 var mongoose = require('mongoose');
 var ThreadModel = require('./schemas/threads');
+var PostModel = require('./schemas/posts');
+var SentenceModel = require('./schemas/sentences');
+var StatsModel = require('./schemas/stats');
 
 // Connections
 var developmentDb = 'mongodb://localhost/test';
@@ -32,7 +35,10 @@ var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 // Open the connection
 db.once('open', function callback () {
-  console.log('Databsae Connection Successfully Opened at ' + usedDb);
+  console.log('Database Connection Successfully Opened at ' + usedDb);
 });
 
 exports.threads = ThreadModel;
+exports.posts= PostModel;
+exports.sentences= SentenceModel;
+exports.stats= StatsModel;

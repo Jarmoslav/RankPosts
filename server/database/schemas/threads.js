@@ -10,7 +10,6 @@ var Schema = mongoose.Schema;
 
 // Define the User Schema
 var threadsSchema = new Schema({
-
   threadID: { type: String, required: false },
   threadTitle: { type: String, required: false },
   numberOfUsers: { type: Number, required: false },
@@ -20,7 +19,6 @@ var threadsSchema = new Schema({
   duration: { type: Number, required: false },
   totalWordCount: { type: Number, required: false },
   totalSentenceCount: { type: Number, required: false }
-
 });
 
 // The primary Threads model

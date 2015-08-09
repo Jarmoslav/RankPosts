@@ -10,15 +10,11 @@
 angular.module('rankpostsFBapp')
 .controller('TabsCtrl', ['$scope','$http', '$state', 'promiseTabs', function ($scope,$http,  $state ,promiseTabs) {
 
-    console.log(promiseTabs);
-
     $http({
       url: 'threads/threadName',
-      method: "GET",
+      method: 'GET',
       params: {threadID: promiseTabs.data[0].threadID}
     }).success(function(data) {
-      console.log('data');
-      console.log(data);
       $scope.threadTitle = data.threadTitle;
           // this callback will be called asynchronously // when the response is available
     }).error(function(data, status, headers, config) {

@@ -11,6 +11,7 @@
 angular.module('rankpostsFBapp')
   .controller('StatsCtrl', [ '$scope', 'promiseStats', function ($scope, promiseStats) {
     $scope.statistics = promiseStats.data[0];
+    $scope.threadTitle =  promiseStats.data[0].threadTitle;
     console.log(promiseStats.data[0]);
     var theArrayPosts = [];
     var theArrayUserPosts = [];

@@ -8,10 +8,24 @@
 * Controller of the rankpostsFBapp
 */
 angular.module('rankpostsFBapp')
-.controller('TabsCtrl', ['$scope', '$state', 'promiseTabs', function ($scope,  $state ,promiseTabs) {
+.controller('TabsCtrl', ['$scope','$http', '$state', 'promiseTabs', function ($scope,$http,  $state ,promiseTabs) {
+
+    console.log(promiseTabs);
+
+    $http({
+      url: 'threads/threadName',
+      method: "GET",
+      params: {threadID: promiseTabs.data[0].threadID}
+    }).success(function(data) {
+      console.log('data');
+      console.log(data);
+      $scope.threadTitle = data.threadTitle;
+          // this callback will be called asynchronously // when the response is available
+    }).error(function(data, status, headers, config) {
+          // called asynchronously if an error occurs // or server returns response with an error status. });;
+    });
 
 
-  $scope.threadTitle = promiseTabs.data[0].threadID;
 
   $scope.tabs = [
    {heading: 'Inlägg', route:'thread.posts', active:true},

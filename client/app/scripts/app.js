@@ -55,6 +55,11 @@ angular
             $scope.orderByField = 'threadTitle';
             $scope.reverseSort = false;
             $scope.threads = promiseObj;
+            $scope.getAllThreads = function(){
+              console.log('sdfsdfs');
+
+            }
+
           }]
         }
       }

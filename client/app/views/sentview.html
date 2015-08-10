@@ -1,4 +1,4 @@
-<ul class="timeline" ng-repeat="sumPost in sumPostsAll  track by $index">
+<ul class="timeline" ng-repeat="sumPost in sumPostsAll | orderBy:'rankGlobal' track by $index">
   <li class="timeline-inverted">
     <section>
       <a id={{$index+1}}></a>

@@ -7,9 +7,10 @@ var Schema = mongoose.Schema;
 // Define the User Schema
 var sentencesSchema = new Schema({
 
+  postDateTime: { type: String, required: true },
+  postNumber: { type: Number, required: false },
   threadID: { type: String, required: true },
   postIndex:  { type: Number, required: false },
-  postNumber:  { type: Number, required: false },
   rankGlobal: { type: Number, required: false },
   scoreGlobal:  { type: Number, required: false },
   userRank: { type: Number, required: false },
@@ -17,10 +18,10 @@ var sentencesSchema = new Schema({
   postUserName: { type: String, required: false },
   postUserID: { type: String, required: false },
   postUserUrl: { type: String, required: false },
-  postDateTime: { type: String, required: false },
   postUrlInThread: { type: String, required: false },
   postUrlUniq: { type: String, required: false },
   sentence: { type: String, required: false }
+
 
 });
 // The primary Sentences model

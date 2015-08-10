@@ -10,6 +10,8 @@
 angular.module('rankpostsFBapp')
 .controller('TabsCtrl', ['$scope','$http', '$state', 'promiseTabs', function ($scope,$http,  $state ,promiseTabs) {
 
+
+    //refacorera
     $http({
       url: 'threads/threadName',
       method: 'GET',

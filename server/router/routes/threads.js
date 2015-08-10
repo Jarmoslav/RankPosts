@@ -12,7 +12,7 @@ var Stats = db.stats;
 router.get('/', function (req, res) {
 
   Threads.find({}).
-    limit(7).
+    limit(10).
     sort({'numberOfPosts':-1}).
     exec( function (err, threads) {
     // If there's an error, log it and return to user
@@ -70,11 +70,10 @@ router.get('/posts', function (req, res) {
 
 router.get('/sentences', function (req, res) {
   var regex = req.param('threadID');
-  var query = { threadID: regex };
-
+  var query = {threadID: regex+'-key' };
+  console.log(query);
   Sentences.find(query, function (err,sentences) {
     // If there's an error, log it and return to user
-    console.log("find sentence");
     if (err) {
       console.log(err);
       // send the error

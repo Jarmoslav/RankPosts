@@ -25,7 +25,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr ng-repeat="thread in threads|orderBy:orderByField:reverseSort"  ng-class="{odd: $odd}">
+      <tr ng-repeat="thread in threads|orderBy: '-numberOfPosts'"  ng-class="{odd: $odd}">
         <td ><a class ="listTitle" ui-sref="thread({threadID: thread.threadID})">{{thread.threadTitle}}</a></td>
         <td align="right">{{thread.numberOfPosts}}</td>
         <td align="right">{{thread.numberOfUsers}}</td>
@@ -33,3 +33,7 @@
     </tbody>
   </table>
 </section>
+<!--
+<div class="circle">
+  <div class="circle-content" ng-click="getAllThreads()">Ladda mer</div>
+</div>-->

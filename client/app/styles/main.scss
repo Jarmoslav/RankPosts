@@ -358,3 +358,30 @@ h3 {
   height: 34px;
   width: 34px;
 }
+
+.circle {
+  border-radius: 50%;
+  height: 6em;
+  width: 6em;
+  margin: auto;
+  border: 2px solid $header-color;
+}
+
+.circle-content {
+  float: left;
+  line-height: 1;
+  margin-top: -0.5em;
+  padding-top: 50%;
+  text-align: center;
+  width: 100%;
+  font-size: 0.76em;
+  text-transform: uppercase;
+  margin-bottom: 10em;
+}
+
+.circle:hover{
+  border: 3px solid $header-color-pressed;
+  cursor: pointer;
+  font-color: #4090db;
+}
+

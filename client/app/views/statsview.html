@@ -47,9 +47,9 @@
     <tbody>
       <tr ng-repeat="user in statistics.topTenImportantPostUserNames"  $index ng-class="{odd: $odd}">
         <td>{{user}}</td>
-        <td>{{statistics.topTenImportantPostUserRank[$index]}}</td>
-        <td >{{statistics.topTenImportantPostUserPostCount[userIndex]}}</td>
-        <td>{{statistics.topTenImportantPostUserScore[userIndex]}}</td>
+          <td>{{statistics.topTenImportantPostUserRank[$index][0]}}</td>
+        <td >{{statistics.topTenImportantPostUserPostCount[$index][0]}}</td>
+        <td>{{statistics.topTenImportantPostUserScore[$index][0]}}</td>
       </tr>
     </tbody>
   </table>
@@ -70,9 +70,9 @@
     <tbody>
       <tr ng-repeat="user in statistics.topTenActiveUserNames"  ng-class="{odd: $odd}">
         <td>{{user}}</td>
-        <td>{{statistics.topTenActiveUserPostCount[$index]}}</td>
-        <td>{{statistics.topTenActiveUserPostRank[userIndex]}}</td>
-        <td>{{statistics.topTenActiveUserPostScore[userIndex]}}</td>
+        <td>{{statistics.topTenActiveUserPostCount[$index][0]}}</td>
+        <td>{{statistics.topTenActiveUserPostRank[$index][0]}}</td>
+        <td>{{statistics.topTenActiveUserPostScore[$index][0]}}</td>
       </tr>
     </tbody>
   </table>

@@ -15,6 +15,7 @@ router.get('/', function (req, res) {
     limit(10).
     sort({'numberOfPosts':-1}).
     exec( function (err, threads) {
+
     // If there's an error, log it and return to user
     if (err) {
       console.log(err);
@@ -27,6 +28,7 @@ router.get('/', function (req, res) {
     }
   });
 });
+
 
 
 router.get('/search', function (req, res) {
@@ -51,9 +53,11 @@ router.get('/search', function (req, res) {
 router.get('/posts', function (req, res) {
   var regex = req.param('threadID');
   var query = { threadID: regex };
+
   Posts.find(query)
     .limit(5)
     .exec(function (err, posts) {
+
     // If there's an error, log it and return to user
     console.log("find posts");
     if (err) {
@@ -70,10 +74,12 @@ router.get('/posts', function (req, res) {
 
 router.get('/sentences', function (req, res) {
   var regex = req.param('threadID');
-  var query = {threadID: regex+'-key' };
+
+  var query = {threadID: regex };
   console.log(query);
   Sentences.find(query, function (err,sentences) {
     // If there's an error, log it and return to user
+
     if (err) {
       console.log(err);
       // send the error
@@ -106,6 +112,7 @@ router.get('/stats', function (req, res) {
 });
 
 
+
 router.get('/threadName', function (req, res) {
   var regex = req.param('threadID');
   var query = { threadID: regex };
@@ -123,7 +130,6 @@ router.get('/threadName', function (req, res) {
       }
     });
 });
-
 
 
 // Expose the module

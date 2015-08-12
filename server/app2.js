@@ -1,22 +1,24 @@
 var express = require('express');
 var path = require('path');
+var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var favicon = require('serve-favicon');
+
+
 
 var app = express();
 
-
+// uncomment after placing your favicon in /public
+//app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-
 /**
  * Development Settings
-*/
+ */
 if (app.get('env') === 'development') {
   // This will change in production since we'll be using the dist folder
   app.use(express.static(path.join(__dirname, '../client')));
@@ -32,15 +34,18 @@ if (app.get('env') === 'development') {
     });
   });
 }
+
 /**
  * Production Settings
  */
-
-/*
-if (app.get('env') === 'production' ||  app.get('env') === 'development') {
+if (app.get('env') === 'production') {
   // changes it to use the optimized version for production
-  app.use(express.static(path.join(__dirname, '/dist')));
+ // app.use(express.static(path.join(__dirname, '/dist')));
   // production error handler
+  app.use(express.static(path.join(__dirname, '../client')));
+  // This covers serving up the index page
+  app.use(express.static(path.join(__dirname, '../client/.tmp')));
+  app.use(express.static(path.join(__dirname, '../client/app')));
   // no stacktraces leaked to user
   app.use(function(err, req, res, next) {
     res.status(err.status || 500);
@@ -50,7 +55,6 @@ if (app.get('env') === 'production' ||  app.get('env') === 'development') {
     });
   });
 }
-*/
 /**
  * Routes
  */
@@ -62,8 +66,3 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
-
-app.listen(process.env.PORT || 5000, function(){
-    console.log("");
-    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-});

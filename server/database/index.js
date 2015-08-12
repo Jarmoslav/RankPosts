@@ -8,9 +8,11 @@ var SentenceModel = require('./schemas/sentences');
 var StatsModel = require('./schemas/stats');
 
 // Connections
-var developmentDb = 'mongodb://localhost/test';
+
+var developmentDb = 'mongodb://admin:mlomlomlo123@ds045252.mongolab.com:45252/rankposts';
 var productionDb = 'mongodb://admin:mlomlomlo123@ds045252.mongolab.com:45252/rankposts';
 var usedDb;
+
 
 // If we're in development...
 if (process.env.NODE_ENV === 'development') {
@@ -28,7 +30,12 @@ if (process.env.NODE_ENV === 'production') {
   mongoose.connect(usedDb);
 }
 
+
 // get an instance of our connection to our database
+usedDb = productionDb;
+// connect to it via mongoose
+mongoose.connect(usedDb);
+
 var db = mongoose.connection;
 
 // Logs that the connection has successfully been opened

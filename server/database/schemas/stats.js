@@ -54,7 +54,6 @@ var statsSchema = new Schema({
   topTenImportantPostUserScore: [],
   keyTerms:[]
 
-
 });
 
 // The primary Threads model

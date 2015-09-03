@@ -17,6 +17,7 @@ app.use(cookieParser());
 /**
  * Development Settings
 */
+/*
 if (app.get('env') === 'development') {
   // This will change in production since we'll be using the dist folder
   app.use(express.static(path.join(__dirname, '../client')));
@@ -32,11 +33,12 @@ if (app.get('env') === 'development') {
     });
   });
 }
+*/
 /**
  * Production Settings
  */
 
-/*
+
 if (app.get('env') === 'production' ||  app.get('env') === 'development') {
   // changes it to use the optimized version for production
   app.use(express.static(path.join(__dirname, '/dist')));
@@ -50,7 +52,7 @@ if (app.get('env') === 'production' ||  app.get('env') === 'development') {
     });
   });
 }
-*/
+
 /**
  * Routes
  */

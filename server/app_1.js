@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-// uncomment after placing your favicon in /public
+// uncomment after placing your favicon in /publico
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());

@@ -6,8 +6,6 @@ var Schema = mongoose.Schema;
 
 // Define the User Schema
 var sentencesSchema = new Schema({
-
-
   threadID: { type: String, required: true },
   postIndex:  { type: Number, required: false },
   postNumber:  { type: Number, required: false },
@@ -19,9 +17,11 @@ var sentencesSchema = new Schema({
   postUserID: { type: String, required: false },
   postUserUrl: { type: String, required: false },
   postDateTime: { type: String, required: false },
-
+  postUrlInThread: { type: String, required: false },
+  postUrlUniq: { type: String, required: false },
+  sentence: { type: String, required: false }
 });
 // The primary Sentences model
-var Sentences = mongoose.model('sentences', sentencesSchema);
+var Sentences = mongoose.model('Sentences', sentencesSchema);
 
 module.exports = Sentences;

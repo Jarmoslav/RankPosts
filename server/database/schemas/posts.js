@@ -1,13 +1,11 @@
 /**
  * Created by simonjare on 01/07/15.
  */
-
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 // Define the User Schema
 var postsSchema = new Schema({
-
   threadID: { type: String, required: true },
   postIndex:  { type: Number, required: false },
   postNumber:  { type: Number, required: false },
@@ -22,9 +20,7 @@ var postsSchema = new Schema({
   postUrlInThread: { type: String, required: false },
   postUrlUniq: { type: String, required: false },
   sentence: { type: String, required: false }
-
 });
-
 // The primary Threads model
 var Posts = mongoose.model('Posts', postsSchema);
 

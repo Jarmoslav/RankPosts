@@ -31,21 +31,24 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 
+
 // get an instance of our connection to our database
 usedDb = productionDb;
 // connect to it via mongoose
-mongoose.connect(usedDb);
+mongoose.createConnection(usedDb);
 
 var db = mongoose.connection;
 
 // Logs that the connection has successfully been opened
-db.on('error', console.error.bind(console, 'connection error:'));
+db.on('error', console.error.bind(console, 'connection error1:'));
 // Open the connection
 db.once('open', function callback () {
   console.log('Database Connection Successfully Opened at ' + usedDb);
 });
 
+
 exports.threads = ThreadModel;
 exports.posts= PostModel;
 exports.sentences= SentenceModel;
 exports.stats= StatsModel;
+

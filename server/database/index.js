@@ -19,7 +19,7 @@ if (process.env.NODE_ENV === 'development') {
   // set our database to the development one
   usedDb = developmentDb;
   // connect to it via mongoose
-  mongoose.connect(usedDb);
+  mongoose.createConnection(usedDb);
 }
 
 // If we're in production...
@@ -27,7 +27,7 @@ if (process.env.NODE_ENV === 'production') {
   // set our database to the development one
   usedDb = productionDb;
   // connect to it via mongoose
-  mongoose.connect(usedDb);
+  mongoose.createConnection(usedDb);
 }
 
 
@@ -35,9 +35,12 @@ if (process.env.NODE_ENV === 'production') {
 // get an instance of our connection to our database
 usedDb = productionDb;
 // connect to it via mongoose
-mongoose.createConnection(usedDb);
+mongoose.connect(usedDb);
+
+//mongoose.createConnection(productionDb);// behövdes tidigare på heroku.. bra att testa om det failar.
 
 var db = mongoose.connection;
+
 
 // Logs that the connection has successfully been opened
 db.on('error', console.error.bind(console, 'connection error1:'));
@@ -51,4 +54,3 @@ exports.threads = ThreadModel;
 exports.posts= PostModel;
 exports.sentences= SentenceModel;
 exports.stats= StatsModel;
-

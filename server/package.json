@@ -5,7 +5,9 @@
   "description": "Configuration for rankposts.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "NODE_ENV=production nodemon ./bin/www",
+    "test": "NODE_ENV=development nodemon ./bin/www"
+    
   },
   "dependencies": {
     "body-parser": "^1.12.4",

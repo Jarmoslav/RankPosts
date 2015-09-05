@@ -13,11 +13,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
+console.log(app.get('env'));
 
-/**
- * Development Settings
-*/
-/*
 if (app.get('env') === 'development') {
   // This will change in production since we'll be using the dist folder
   app.use(express.static(path.join(__dirname, '../client')));
@@ -33,13 +30,11 @@ if (app.get('env') === 'development') {
     });
   });
 }
-*/
-/**
- * Production Settings
- */
 
 
-if (app.get('env') === 'production' ||  app.get('env') === 'development') {
+//(app.get('env') === 'production' ||  app.get('env') === 'development')
+
+if (app.get('env') === 'production') {
   // changes it to use the optimized version for production
   app.use(express.static(path.join(__dirname, '/dist')));
   // production error handler
@@ -54,8 +49,8 @@ if (app.get('env') === 'production' ||  app.get('env') === 'development') {
 }
 
 /**
- * Routes
- */
+* Routes
+*/
 var router = require('./router')(app);
 // Error Handling
 app.use(function(err, req, res, next) {
@@ -66,6 +61,6 @@ app.use(function(err, req, res, next) {
 module.exports = app;
 
 app.listen(process.env.PORT || 5000, function(){
-    console.log("");
-    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+  console.log("");
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });

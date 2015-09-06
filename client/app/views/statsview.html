@@ -1,33 +1,37 @@
-
-<!-- Graf med antal inlägg per vecka över tid -->
 <div class="col-md-12">
-  <nvd3-line-chart
-  data="postsPerWeek"
-  id="postsPerWeek"
-  height="300"
-  showXAxis="true"
-  showYAxis="true"
-  tooltips="true"
-  interactive="true"
-  useInteractiveGuideLine="true"
-  xAxisTickFormat="xAxisTickFormat()"
-  showLegend="false"
-  margin="{left:50,top:50,bottom:50,right:50}">
-  <svg></svg>
-</nvd3-line-chart>
-</div>
+  
 
-<div class="col-md-12">
   <h4>Statistik om tråden {{statistics.threadTitle}}</h4>
   <table class="table table-condensed">
     <tbody>
-      <tr><td>Antal inlägg:</td><td>{{statistics.numberOfPosts}}</td></tr>
-      <tr><td>Antal användare:</td><td>{{statistics.numberOfUsers}}</td></tr>
-      <tr><td>Antal meningar:</td><td>{{statistics.totalSentenceCount}}</td></tr>
-      <tr><td>Antal inlägg per användare i medel: </td> <td>{{statistics.avgPostsPerUser}} </td></tr>
-      <tr><td>Fösta inlägg: </td><td>{{statistics.startDate}} </td></tr>
-      <tr><td>Sista inlägg: </td><td>{{statistics.endDate}} </td></tr>
-      <tr><td>Antal dagar: </td><td>{{statistics.duration}} </td></tr>
+    <tr>
+      <td>Antal inlägg:</td>
+      <td>{{statistics.numberOfPosts}}</td>
+    </tr>
+    <tr>
+      <td>Antal användare:</td>
+      <td>{{statistics.numberOfUsers}}</td>
+    </tr>
+    <tr>
+      <td>Antal meningar:</td>
+      <td>{{statistics.totalSentenceCount}}</td>
+    </tr>
+    <tr>
+      <td>Antal inlägg per användare i medel:</td>
+      <td>{{statistics.avgPostsPerUser}}</td>
+    </tr>
+    <tr>
+      <td>Fösta inlägg:</td>
+      <td>{{statistics.startDate}}</td>
+    </tr>
+    <tr>
+      <td>Sista inlägg:</td>
+      <td>{{statistics.endDate}}</td>
+    </tr>
+    <tr>
+      <td>Antal dagar:</td>
+      <td>{{statistics.duration}}</td>
+    </tr>
     </tbody>
   </table>
 </div>

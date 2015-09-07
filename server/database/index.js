@@ -35,9 +35,9 @@ if (process.env.NODE_ENV === 'production') {
 // get an instance of our connection to our database
 usedDb = productionDb;
 // connect to it via mongoose
-//mongoose.connect(usedDb);
+mongoose.connect(usedDb);
 
-mongoose.createConnection(productionDb);// behövdes tidigare på heroku.. bra att testa om det failar.
+//mongoose.createConnection(productionDb);// behövdes tidigare på heroku.. bra att testa om det failar.
 
 var db = mongoose.connection;
 

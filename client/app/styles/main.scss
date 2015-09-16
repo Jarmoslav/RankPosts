@@ -1623,3 +1623,87 @@ h3 {
   /* reduce the damage in FF3.0 */
   display:block;
 }
+
+.carousel{
+  background: white !important;
+}
+.color-overlay {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.feedback {
+    max-width: 750px;
+    margin: auto;
+}
+
+.feedback .image {
+    font-size: 24px;
+    border: 2px solid transparent;
+    -webkit-box-shadow: 0px 0px 0px 2px #ffffff;
+            box-shadow: 0px 0px 0px 2px #ffffff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin: auto;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.feedback .image img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.feedback .message {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.feedback .name {
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.feedback .company-info {
+    font-size: 12px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.customNavigation a {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.colored-line {
+    margin: auto;
+    background: #0E0E0E !important;
+    z-index: 1;
+    width: 165px;
+    height: 1px;
+}
+
+.carousel-indicators li{
+    border: 1px solid $header-color !important;
+}
+.carousel-indicators li{
+  background-color: $header-color;
+  bottom: 0 !important;
+}
+
+.colored-line {
+    margin: auto;
+    z-index: 1;
+    width: 165px;
+    height: 1px;
+}

@@ -2,16 +2,17 @@
 1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.32
-4 error Error: ENOENT, open '/Users/simonjare/Documents/Jobb/berkant/package.json'
-5 error If you need help, you may report this *entire* log,
-5 error including the npm and node versions, at:
-5 error     <http://github.com/npm/npm/issues>
-6 error System Darwin 14.1.0
-7 error command "node" "/usr/local/bin/npm" "start"
-8 error cwd /Users/simonjare/Documents/Jobb/berkant
-9 error node -v v0.10.32
-10 error npm -v 1.4.28
-11 error path /Users/simonjare/Documents/Jobb/berkant/package.json
-12 error code ENOENT
-13 error errno 34
-14 verbose exit [ 34, true ]
+4 verbose config Skipping project config: /Users/simonjare/.npmrc. (matches userconfig)
+5 error Error: ENOENT, open '/Users/simonjare/Documents/workspace/Rankpost/package.json'
+6 error If you need help, you may report this *entire* log,
+6 error including the npm and node versions, at:
+6 error     <http://github.com/npm/npm/issues>
+7 error System Darwin 14.1.0
+8 error command "node" "/usr/local/bin/npm" "start"
+9 error cwd /Users/simonjare/Documents/workspace/Rankpost
+10 error node -v v0.10.32
+11 error npm -v 1.4.28
+12 error path /Users/simonjare/Documents/workspace/Rankpost/package.json
+13 error code ENOENT
+14 error errno 34
+15 verbose exit [ 34, true ]
